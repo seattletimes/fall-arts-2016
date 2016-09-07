@@ -1,0 +1,110 @@
+@import "seattletimes";
+
+body {
+  font-size: 16px;
+}
+
+.filters {
+
+  .search {
+    border: 1px solid @df-light-gray;
+    margin: 8px 0;
+  }
+
+  .categories {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: inline;
+
+    input[type=checkbox] {
+      display: none;
+
+      & + label {
+        padding: 4px 8px;
+        border: 1px solid @df-light-gray;
+        color: @df-light-gray;
+        border-radius: 2px;
+        cursor: pointer;
+
+        &::before {
+          content: "✗";
+          margin-right: 6px;
+        }
+      }
+
+      &:checked + label {
+        border: 1px solid @df-dark-gray;
+        color: @df-dark-gray;
+
+        &::before {
+          content: "✓"
+        }
+      }
+    }
+
+    li {
+      display: inline-block;
+    }
+  }
+}
+
+.fall-arts {
+  width: 100%;
+  max-width: 960px;
+  margin: auto;
+  border-collapse: collapse;
+
+  tbody {
+    width: 100%;
+  }
+
+  th {
+    text-align: left;
+  }
+
+  td {
+    border-bottom: 1px solid @df-light-gray;
+    vertical-align: top;
+    padding: 0 4px 8px 0;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .category {
+
+  }
+
+  .event {
+
+  }
+
+  .date {
+    min-width: 75px;
+  }
+
+  .location {
+
+  }
+
+  .description {
+    max-width: 50%;
+  }
+
+  .emptied {
+    display: none;
+    text-align: center;
+    background: @df-light-gray;
+
+    td {
+      padding: 20px;
+    }
+
+    .empty& {
+      display: table-row-group;
+    }
+  }
+
+}

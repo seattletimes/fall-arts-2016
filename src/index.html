@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+  <head>
+    <title><%= json.project.title %></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <!-- Safari, you're the worst -->
+    <meta name='format-detection' content='telephone=no'>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <%= t.include("partials/_head.html") %>
+  </head>
+  <body>
+
+    <main class="interactive">
+      <nav class="filters">
+        <input type="text" placeholder="Search events" class="search">
+        <div>
+          Choose categories:
+          <% var cats = [
+            { data: "books", label: "Books &amp; Authors" },
+            { data: "classical", label: "Classical Music &amp; Opera" }
+          ] %>
+          <ul class="categories">
+            <% cats.forEach(function(cat) { %>
+            <li>
+              <input type="checkbox" data-category="<%= cat.data %>" id="<%= cat.data %>" checked="checked">
+              <label for="<%= cat.data %>"><%= cat.label %></label>
+            </li>
+            <% }) %>
+          </ul>
+        </div>
+      </nav>
+
+      <table class="fall-arts">
+        <thead>
+          <tr>
+            <th class="category">
+            <th class="event">Event
+            <th class="date">Date
+            <th class="location">Location
+            <th class="description">Description
+        <tbody class="events">
+          <% var icons = {
+            books: "books.jpg",
+            classical: "classical.jpg"
+          } %>
+          <% json.guide.forEach(function(item) { %>
+          <tr data-category="<%= item.className %>">
+            <td class="category"><img src="./assets/icons/<%= icons[item.className] %>" alt="<%= item.category %>">
+            <td class="event"><%= item.event %>
+            <td class="date"><%= item.date %>
+            <td class="location"><%= item.location %>
+            <td class="description"><%= item.info %>
+          <% }) %>
+        <tbody class="emptied">
+          <tr>
+            <td colspan="99">No results found</td>
+      </table>
+    </main>
+
+    <script src="app.js" async></script>
+    <% if (json.project.production) { %>
+    <%= !json.project.embedded ? t.include("partials/_foot.html") : "" %>
+    <%= t.include("partials/_workHere.html") %>
+    <% } %>
+  </body>
+</html>

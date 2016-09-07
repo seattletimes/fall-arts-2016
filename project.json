@@ -1,0 +1,21 @@
+{
+  "s3": {
+    "stage": {
+      "bucket": "projects-staging.seattletimes.com",
+      "path": "aesthetic-pilchard"
+    },
+    "live": {
+      "bucket": "projects.seattletimes.com",
+      "path": ""
+    }
+  },
+  "title": "Fall Arts Guide 2016",
+  "description": "",
+  "url": "",
+  "slug": "",
+  "tags": [],
+  "image": "assets/social.jpg",
+  "sheets": ["1S1ZA8SwHbrxEbNdNK0nRUk6ecVxI_txGGFfPPH35MDg"],
+  "production": false,
+  "embedded": true
+}
