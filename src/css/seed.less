@@ -4,28 +4,53 @@ body {
   font-size: 16px;
 }
 
+header.top {
+  max-width: 960px;
+  margin: auto;
+  padding: 0 16px;
+}
+
+main.table-container {
+  max-width: 960px;
+  padding: 0 16px;
+}
+
 .filters {
+  font-family: @df-sans;
+
+  .nav-header {
+    font-weight: normal;
+    color: @df-middle-gray;
+    font-size: 16px;
+    text-align: center;
+    margin: 0;
+  }
 
   .search {
     border: 1px solid @df-light-gray;
     margin: 8px 0;
+    display: none;
   }
 
   .categories {
-    padding: 0;
+    padding: 8px 0;
     margin: 0;
     list-style-type: none;
-    display: inline;
+    display: block;
+    text-align: center;
 
     input[type=checkbox] {
       display: none;
 
       & + label {
-        padding: 4px 8px;
+        padding: 2px 8px;
         border: 1px solid @df-light-gray;
         color: @df-light-gray;
         border-radius: 2px;
         cursor: pointer;
+        display: block;
+        margin: 2px;
+        font-size: 14px;
 
         &::before {
           content: "✗";
@@ -55,6 +80,16 @@ body {
   margin: auto;
   border-collapse: collapse;
 
+  @media @mobile {
+    &, tbody, tr, th, td {
+      display: block;
+    }
+
+    thead {
+      display: none;
+    }
+  }
+
   tbody {
     width: 100%;
   }
@@ -64,7 +99,9 @@ body {
   }
 
   td {
-    border-bottom: 1px solid @df-light-gray;
+    @media @not-mobile {
+      border-bottom: 1px solid @df-light-gray;
+    }
     vertical-align: top;
     padding: 0 4px 8px 0;
   }
@@ -73,24 +110,32 @@ body {
     display: none;
   }
 
-  .category {
+  @media @not-mobile {
 
+    .category {
+      width: 75px;
+    }
+
+    .date {
+      min-width: 75px;
+    }
+
+    .description {
+      max-width: 50%;
+    }
   }
 
-  .event {
+  @media @mobile {
+    .category {
+      float: right;
+      max-width: 75px;
+    }
 
-  }
-
-  .date {
-    min-width: 75px;
-  }
-
-  .location {
-
-  }
-
-  .description {
-    max-width: 50%;
+    tr {
+      border-top: 1px solid @df-light-gray;
+      margin-top: 10px;
+      padding-top: 10px;
+    }
   }
 
   .emptied {

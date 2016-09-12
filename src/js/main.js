@@ -1,8 +1,9 @@
-// require("./lib/social");
-// require("./lib/ads");
+require("./lib/social");
+require("./lib/ads");
 // var track = require("./lib/tracking");
 
 var $ = require("./lib/qsa");
+var debounce = require("./lib/debounce");
 
 // rebuild data from the DOM
 var rows = $(".fall-arts tbody.events tr").map(function(tr) {
@@ -27,24 +28,25 @@ var filterBySearch = function(q, list) {
   return list.filter(r => r.event.match(re) || r.location.match(re) || r.description.match(re));
 };
 
-var applyFilters = function() {
+var applyFilters = debounce(function() {
   var checked = $("input[type=checkbox]:checked", catList).map(el => el.getAttribute("data-category"));
   var query = searchBox.value;
   var byCat = checked.length ? filterByCategory(checked, rows) : rows;
   var byQ = query ? filterBySearch(query, byCat) : byCat;
+  var final = byQ;
   rows.forEach(function(r) {
-    if (byQ.indexOf(r) > -1) {
+    if (final.indexOf(r) > -1) {
       r.element.classList.remove("hidden");
     } else {
       r.element.classList.add("hidden");
     }
   });
-  if (!byQ.length) {
+  if (!final.length) {
     table.classList.add("empty");
   } else {
     table.classList.remove("empty");
   }
-};
+});
 
 catList.addEventListener("click", applyFilters);
 

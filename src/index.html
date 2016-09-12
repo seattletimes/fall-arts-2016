@@ -11,14 +11,31 @@
   </head>
   <body>
 
-    <main class="interactive">
+    <%= t.include("partials/_nav.html") %>
+
+    <%= t.include("partials/_ad.html", { type: "banner" }) %>
+
+    <header class="top">
+      <h1>Seattle Times Fall Arts Guide</h1>
+
+      <p>
+        This is the fall arts guide &mdash; everything you could possibly want to do this fall in Seattle, from books to concerts to art shows.
+    </header>
+
+    <main class="table-container">
+
       <nav class="filters">
         <input type="text" placeholder="Search events" class="search">
         <div>
-          Choose categories:
+          <h2 class="nav-header">Choose categories</h2>
           <% var cats = [
             { data: "books", label: "Books &amp; Authors" },
-            { data: "classical", label: "Classical Music &amp; Opera" }
+            { data: "classical", label: "Classical Music &amp; Opera" },
+            { data: "pop", label: "Pop, Rock &amp; Jazz" },
+            { data: "comedy", label: "Comedy" },
+            { data: "theater", label: "Theater" },
+            { data: "todo", label: "To-do list" },
+            { data: "art", label: "Visual Art" }
           ] %>
           <ul class="categories">
             <% cats.forEach(function(cat) { %>
@@ -41,13 +58,26 @@
             <th class="description">Description
         <tbody class="events">
           <% var icons = {
-            books: "books.jpg",
-            classical: "classical.jpg"
+            books: "bookauthors.png",
+            classical: "classicalopera.png",
+            comedy: "comedy.png",
+            dance: "dance.png",
+            pop: "poprockjazz.png",
+            theater: "theater.png",
+            todo: "todolist.png",
+            art: "visualart.png"
           } %>
           <% json.guide.forEach(function(item) { %>
           <tr data-category="<%= item.className %>">
             <td class="category"><img src="./assets/icons/<%= icons[item.className] %>" alt="<%= item.category %>">
-            <td class="event"><%= item.event %>
+            <td class="event">
+              <% if (item.website) { %>
+              <a href="<%= item.website %>">
+              <% } %>
+              <%= item.event %>
+              <% if (item.website) { %>
+              </a>
+              <% } %>
             <td class="date"><%= item.date %>
             <td class="location"><%= item.location %>
             <td class="description"><%= item.info %>
@@ -57,6 +87,8 @@
             <td colspan="99">No results found</td>
       </table>
     </main>
+
+    <%= t.include("partials/_navBottom.html") %>
 
     <script src="app.js" async></script>
     <% if (json.project.production) { %>
