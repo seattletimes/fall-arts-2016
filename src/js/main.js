@@ -69,7 +69,7 @@ var filterForPicks = function(list) {
 var applyFilters = debounce(function() {
   var checked = $("input[type=checkbox]:checked", catList).map(el => el.getAttribute("data-category"));
   var query = searchBox.value;
-  var byCat = checked.length ? filterByCategory(checked, rows) : rows;
+  var byCat = filterByCategory(checked, rows);
   var byQ = query ? filterBySearch(query, byCat) : byCat;
   var picks = edPicks.checked ? filterForPicks(byQ) : byQ;
   var final = picks;
