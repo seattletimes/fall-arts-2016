@@ -31,6 +31,7 @@ var rows = $(".fall-arts tbody.events tr").map(function(tr) {
   if (tr.getAttribute("data-end")) o.end = parseDate(tr.getAttribute("data-end"));
   tr.querySelector("span.start").innerHTML = formatDate(o.start);
   if (o.end) tr.querySelector("span.end").innerHTML = formatDate(o.end);
+  o.pick = tr.classList.contains("pick");
   return o;
 });
 
@@ -49,7 +50,8 @@ document.querySelector(".jump-to-today").addEventListener("click", function() {
 
 var catList = document.querySelector(".filters .categories");
 var searchBox = document.querySelector(".filters .search");
-var table = document.querySelector(".fall-arts")
+var table = document.querySelector(".fall-arts");
+var edPicks = document.querySelector(".editors");
 
 var filterByCategory = function(cats, list) {
   return list.filter(r => cats.indexOf(r.category) > -1);
@@ -60,12 +62,17 @@ var filterBySearch = function(q, list) {
   return list.filter(r => r.event.match(re) || r.location.match(re) || r.description.match(re));
 };
 
+var filterForPicks = function(list) {
+  return list.filter(r => r.pick);
+};
+
 var applyFilters = debounce(function() {
   var checked = $("input[type=checkbox]:checked", catList).map(el => el.getAttribute("data-category"));
   var query = searchBox.value;
   var byCat = checked.length ? filterByCategory(checked, rows) : rows;
   var byQ = query ? filterBySearch(query, byCat) : byCat;
-  var final = byQ;
+  var picks = edPicks.checked ? filterForPicks(byQ) : byQ;
+  var final = picks;
   rows.forEach(function(r) {
     if (final.indexOf(r) > -1) {
       r.element.classList.remove("hidden");
@@ -83,5 +90,7 @@ var applyFilters = debounce(function() {
 catList.addEventListener("click", applyFilters);
 
 searchBox.addEventListener("keyup", applyFilters);
+
+edPicks.addEventListener("click", applyFilters);
 
 applyFilters();

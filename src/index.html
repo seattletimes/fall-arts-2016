@@ -19,13 +19,12 @@
       <h1><img src="./assets/header.jpg" alt="Seattle Times Fall Arts Guide"></h1>
 
       <p>
-        This is the fall arts guide &mdash; everything you could possibly want to do this fall in Seattle, from books to concerts to art shows. <a class="jump-to-today">Click here to scroll to upcoming events.</a>
+        Use our fall arts guide to plan your season! This calendar includes our editors' picks for autumn events -- everything from concerts to comedy to books and ballet. <a class="jump-to-today">Click here to scroll to upcoming events.</a>
     </header>
 
     <main class="table-container">
 
       <nav class="filters">
-        <input type="text" placeholder="Search events" class="search">
         <div>
           <h2 class="nav-header">Choose categories</h2>
           <% var cats = [
@@ -45,6 +44,11 @@
             </li>
             <% }) %>
           </ul>
+        </div>
+        <div class="advanced">
+          <input type="text" placeholder="Search events" class="search">
+          <input type="checkbox" class="editors" id="editors">
+          <label for="editors">Show only editor's picks</label>
         </div>
       </nav>
 
@@ -68,7 +72,14 @@
             art: "visualart.png"
           } %>
           <% json.guide.forEach(function(item) { %>
-          <tr data-category="<%= item.className %>" data-start="<%= item.start %>" data-end="<%= item.end %>">
+          <tr
+            data-category="<%= item.className %>"
+            data-start="<%= item.start %>" data-end="<%= item.end %>"
+            <% if (item.pick) { %>
+            class="pick"
+            <% } %>
+          >
+
             <td class="category">
               <img src="./assets/icons/<%= icons[item.className] %>"
                 alt="<%= item.category %>"
@@ -94,7 +105,11 @@
               </a>
               <% } %>
             <td class="location"><%= item.location %>
-            <td class="description"><%= item.info %>
+            <td class="description">
+              <% if (item.pick) { %>
+              <span class="editors-pick">&bigstar; Editor's pick</span>
+              <% } %>
+              <%= item.info %>
               <% if (item.phone) { %>
               <div class="phone">Call for info: <%= item.phone %></div>
               <% } %>

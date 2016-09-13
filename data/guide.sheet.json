@@ -6,7 +6,7 @@
     "start": "6/16/2016",
     "end": "9/25/2016",
     "location": "Teatro ZinZanni, Seattle",
-    "website": "zinzanni.com",
+    "website": "https://zinzanni.com/",
     "price": "$99-$174",
     "phone": "(206) 802-0015"
   },
@@ -17,7 +17,7 @@
     "start": "9/6/2016",
     "end": "10/2/2016",
     "location": "Intiman Theatre at the Floyd and Delores Jones Playhouse, Seattle",
-    "website": "intiman.org",
+    "website": "http://www.intiman.org/",
     "price": "$20-$40 ",
     "phone": "(206) 315-5838"
   },
@@ -29,7 +29,7 @@
     "end": "9/17/2016",
     "time": "8 p.m.",
     "location": "Erickson Theater Off Broadway",
-    "website": "whimwhim.org",
+    "website": "http://www.whimwhim.org/",
     "price": "$15-$30",
     "phone": "(800) 838-3006"
   },
@@ -40,6 +40,7 @@
     "start": "9/15/2016",
     "time": "7 p.m.",
     "location": "Elliott Bay Book Co.",
+    "website": "http://www.elliottbaybook.com/",
     "price": "free",
     "info": "Author discusses “The Fortunes.”"
   },
@@ -50,8 +51,9 @@
     "start": "9/15/2016",
     "end": "9/18/2016",
     "location": "Dimitriou's Jazz Alley, Seattle",
-    "website": "jazzalley.com",
-    "price": "$29.50"
+    "website": "http://www.jazzalley.com/www-home/",
+    "price": "$29.50",
+    "phone": "(206) 441-9729"
   },
   {
     "event": "Bonnie Raitt",
@@ -60,8 +62,9 @@
     "start": "9/16/2016",
     "time": "7 p.m.",
     "location": "Chateau Ste. Michelle",
-    "website": "ste-michelle.com",
-    "price": "$50.50-$86"
+    "website": "https://www.ste-michelle.com/",
+    "price": "$50.50-$86",
+    "phone": "(425) 488-1133"
   },
   {
     "event": "Drake, Future",
@@ -70,7 +73,7 @@
     "start": "9/16/2016",
     "time": "6:30 p.m.",
     "location": "Tacoma Dome",
-    "website": "ticketmaster.com",
+    "website": "http://www.ticketmaster.com/",
     "price": "$49.50-$129.50",
     "phone": "(800) 745-3000"
   },
@@ -81,6 +84,7 @@
     "start": "9/17/2016",
     "time": "2 p.m.",
     "location": "Town Hall Seattle",
+    "website": "https://townhallseattle.org/",
     "price": "free",
     "info": "Seattle Public Library’s A. Scott Bullitt Lecture in American History features the author of “American Heiress” and  “The Nine: Inside the Secret World of the Supreme Court” presenting  “Analyzing Politics, the Media and the Law.”"
   },
@@ -91,9 +95,10 @@
     "start": "9/17/2016",
     "time": "7 p.m.",
     "location": "Seattle Central Library",
+    "website": "http://www.spl.org/locations/central-library",
     "price": "free",
-    "editor's pick": "x",
-    "info": "Author discusses novel “The Underground Railroad.”"
+    "pick": "x",
+    "info": "Author discusses novel “The Underground Railroad.” Whitehead, a brilliant prose stylist, has achieved unlikely literary stardom with his new novel “The Underground Railroad.” It was an Oprah pick, and has become the must-read book of the season."
   },
   {
     "event": "David B. Williams ",
@@ -102,6 +107,7 @@
     "start": "9/17/2016",
     "time": "2 p.m.",
     "location": "Vashon Library",
+    "website": "http://kcls.org/locations/1545/",
     "price": "free",
     "info": "Author discusses “Too High, Too Steep: Reshaping Seattle’s Topography.”"
   },
@@ -112,7 +118,7 @@
     "start": "9/17/2016",
     "time": "5 p.m.",
     "location": "Benaroya Hall (S. Mark Taper Forum)",
-    "website": "http://www.seattlesymphony.org",
+    "website": "http://www.seattlesymphony.org/BenaroyaHall",
     "price": "$48-$103",
     "phone": "(206) 215-4747"
   },
@@ -123,8 +129,9 @@
     "start": "9/19/2016",
     "time": "7:30 p.m.",
     "location": "Benaroya Hall",
+    "website": "http://www.seattlesymphony.org/BenaroyaHall",
     "price": "$10-$80",
-    "info": "Seattle Arts & Lectures hosts author of “Commonwealth.”"
+    "info": "When it comes to the human condition, the “Bel Canto” author is one of the most insightful American novelists working today. Seattle Arts & Lectures hosts her discussion of “Commonwealth.”"
   },
   {
     "event": "Mary Beard ",
@@ -133,6 +140,7 @@
     "start": "9/19/2016",
     "time": "7:30 p.m.",
     "location": "Town Hall Seattle",
+    "website": "https://townhallseattle.org/",
     "price": "$5",
     "info": "Author discusses “SPQR: A History of Ancient Rome.”"
   },
@@ -143,6 +151,7 @@
     "start": "9/20/2016",
     "time": "12 p.m.",
     "location": "Seattle Mystery Bookshop",
+    "website": "http://www.seattlemystery.com/",
     "price": "free",
     "info": "Author signs “Lady Cop Makes Trouble.”"
   },
@@ -153,6 +162,7 @@
     "start": "9/20/2016",
     "time": "7 p.m.",
     "location": "Third Place Books Lake Forest Park",
+    "website": "http://www.thirdplacebooks.com/lake-forest-park",
     "price": "free",
     "info": "Author discusses novel  “Lady Cop Makes Trouble.”"
   },
@@ -163,7 +173,7 @@
     "start": "9/20/2016",
     "time": "8:30 p.m.",
     "location": "Paramount Theatre",
-    "website": "stgpresents.org",
+    "website": "http://www.stgpresents.org/",
     "price": "$75.75",
     "phone": "(877) 784-4849"
   },
@@ -174,6 +184,7 @@
     "start": "9/21/2016",
     "time": "7 p.m.",
     "location": "Elliott Bay Book Co.,",
+    "website": "http://www.elliottbaybook.com/",
     "price": "free",
     "info": "Author discusses “Another Brooklyn.”"
   },
@@ -184,6 +195,7 @@
     "start": "9/21/2016",
     "time": "7 p.m.",
     "location": "Folio: The Seattle Athenaeum",
+    "website": "http://www.folioseattle.org/",
     "price": "$5",
     "info": "Author discusses “A Gentleman in Moscow.”"
   },
@@ -194,8 +206,9 @@
     "start": "9/21/2016",
     "time": "7:30 p.m.",
     "location": "ShoWare Center, Kent",
-    "website": "showarecenter.com",
-    "price": "$39.50"
+    "website": "http://showarecenter.com/",
+    "price": "$39.50",
+    "phone": "(253) 856-6777"
   },
   {
     "event": "Ian Brown ",
@@ -204,6 +217,7 @@
     "start": "9/22/2016",
     "time": "7:30 p.m.",
     "location": "Town Hall Seattle",
+    "website": "https://townhallseattle.org/",
     "price": "$5",
     "info": "Author discusses “Sixty: A Diary of My Sixty-First Year.”"
   },
@@ -214,9 +228,10 @@
     "start": "9/23/2016",
     "end": "10/2/2016",
     "location": "McCaw Hall",
-    "website": "pnb.org",
+    "website": "https://www.pnb.org/",
     "price": "$25-$187",
-    "phone": "(206) 441-2424"
+    "pick": "x",
+    "info": "Well, bonjour, Benjamin Millepied. The very in-demand French choreographer brings two of his works to PNB: the return of his dazzling 2008 work “3 Movements” and the local premiere of “Appassionata,” created earlier this year and set to Beethoven’s piano sonata. Also on the bill: George Balanchine’s ever-glorious “Symphony in C.” "
   },
   {
     "event": "St. Paul and the Broken Bones",
@@ -225,7 +240,7 @@
     "start": "9/24/2016",
     "time": "8 p.m.",
     "location": "Paramount Theatre",
-    "website": "stgpresents.org",
+    "website": "http://www.stgpresents.org/",
     "price": "$26.25",
     "phone": "(877) 784-4849"
   },
@@ -236,6 +251,7 @@
     "start": "9/25/2016",
     "time": "7 p.m.",
     "location": "Third Place Books Seward Park",
+    "website": "http://www.thirdplacebooks.com/seward-park",
     "price": "free",
     "info": "Hugo House hosts author of novel “Christodora,” in conversation with David Schmader."
   },
@@ -246,6 +262,7 @@
     "start": "9/26/2016",
     "time": "7:30 p.m.",
     "location": "Town Hall Seattle",
+    "website": "https://townhallseattle.org/",
     "price": "$34.89 for one or two people includes book.",
     "info": "Author discusses “Here I Am.”"
   },
@@ -256,6 +273,7 @@
     "start": "9/26/2016",
     "time": "7 p.m.",
     "location": "Elliott Bay Book Co.",
+    "website": "http://www.elliottbaybook.com/",
     "price": "free",
     "info": "Author discusses “Swimming in the Sink: An Episode of the Heart.\""
   },
@@ -266,6 +284,7 @@
     "start": "9/27/2016",
     "time": "7 p.m.",
     "location": "Seattle Central Library",
+    "website": "http://www.spl.org/locations/central-library",
     "price": "free",
     "info": "Author discusses “The Witches: Salem, 1692.”"
   },
@@ -276,6 +295,7 @@
     "start": "9/27/2016",
     "time": "7 p.m.",
     "location": "Third Place Books Ravenna",
+    "website": "http://www.thirdplacebooks.com/ravenna",
     "price": "free",
     "info": "Author discusses “Shelter in Place.”"
   },
@@ -286,6 +306,7 @@
     "start": "9/28/2016",
     "time": "7 p.m.",
     "location": "University Book Store",
+    "website": "http://www.bookstore.washington.edu/home/home.taf?",
     "price": "free",
     "info": "Author discusses “Looking for Betty MacDonald: The Egg, The Plague, Mrs. Piggle-Wiggle and I.”"
   },
@@ -296,7 +317,7 @@
     "start": "9/29/2016",
     "end": "10/1/2016",
     "location": "Benaroya Hall (S. Mark Taper Forum)",
-    "website": "http://www.seattlesymphony.org",
+    "website": "http://www.seattlesymphony.org/BenaroyaHall",
     "price": "$22-$122",
     "phone": "(206) 215-4747  "
   },
@@ -307,7 +328,7 @@
     "start": "9/29/2016",
     "time": "7 p.m.",
     "location": "KeyArena",
-    "website": "ticketmaster.com",
+    "website": "http://www.ticketmaster.com/",
     "price": "$31-$121",
     "phone": "(800) 745-3000"
   },
@@ -318,6 +339,7 @@
     "start": "9/30/2016",
     "time": "8 p.m.",
     "location": "Fred Wildlife Refuge",
+    "website": "http://www.fredwildliferefuge.com/",
     "price": "free",
     "info": "Richard Hugo House hosts readings by Pacific Northwest poets."
   },
@@ -328,6 +350,7 @@
     "start": "9/30/2016",
     "time": "7:30 p.m.",
     "location": "Town Hall Seattle",
+    "website": "https://townhallseattle.org/",
     "price": "$5",
     "info": "Author discusses “Yellowstone: A Journey Through America’s Wild Heart.”"
   },
@@ -338,7 +361,7 @@
     "start": "9/30/2016",
     "end": "10/2/2016",
     "location": "Ballard",
-    "website": "macefieldmusicfestival.com",
+    "website": "http://macefieldmusicfestival.com/",
     "price": "$45"
   },
   {
@@ -348,7 +371,7 @@
     "start": "9/30/2016",
     "time": "6 p.m.",
     "location": "Bellevue Arts Museum",
-    "website": "bellevuearts.org",
+    "website": "http://www.bellevuearts.org/",
     "price": "$12-$15",
     "phone": "(425) 519-0770"
   },
@@ -359,6 +382,7 @@
     "start": "10/1/2016",
     "time": "7 p.m.",
     "location": "Elliott Bay Book Co.",
+    "website": "http://www.elliottbaybook.com/",
     "price": "free",
     "info": "Author discusses “Birth of a Dream Weaver.”"
   },
@@ -369,6 +393,7 @@
     "start": "10/3/2016",
     "time": "7 p.m.",
     "location": "Elliott Bay Book Co.",
+    "website": "http://www.elliottbaybook.com/",
     "price": "free",
     "info": "Author discusses “The Good Lieutenant.”"
   },
@@ -379,6 +404,7 @@
     "start": "10/3/2016",
     "time": "7 p.m.",
     "location": "Third Place Books Ravenna",
+    "website": "http://www.thirdplacebooks.com/ravenna",
     "price": "free",
     "info": "Author discusses “The Names of the Stars: A Life in the Wilds.”"
   },
@@ -389,6 +415,7 @@
     "start": "10/3/2016",
     "time": "7 p.m.",
     "location": "Elliott Bay Book Co.",
+    "website": "http://www.elliottbaybook.com/",
     "price": "$17.54",
     "info": "Author discusses “M Train.”"
   },
@@ -399,8 +426,9 @@
     "start": "10/3/2016",
     "time": "7:30 p.m.",
     "location": "Town Hall Seattle",
+    "website": "https://townhallseattle.org/",
     "price": "$32 includes book.",
-    "info": "Elliot Bay Book Co. hosts author of “Truck Full of Money.”"
+    "info": "The nonfiction master’s latest, “A Truck Full of Money,” is both a biography of Paul English, founder and head of the successful online travel search site Kayak, and an examination of the culture of the software industry and how it has changed us, for better or worse."
   },
   {
     "event": "Pete Fromm",
@@ -409,6 +437,7 @@
     "start": "10/4/2016",
     "time": "7 p.m.",
     "location": "Elliott Bay Book Co.",
+    "website": "http://www.elliottbaybook.com/",
     "price": "free",
     "info": "Author discusses “The Names of the Stars: A Life in the Wilds.”"
   },
@@ -419,7 +448,7 @@
     "start": "10/4/2016",
     "time": "7:30 p.m.",
     "location": "Moore Theatre",
-    "website": "stgpresents.org",
+    "website": "http://www.stgpresents.org/",
     "price": "$32.50-$34.50",
     "phone": "(877) 784-4849"
   },
@@ -430,8 +459,9 @@
     "start": "10/4/2016",
     "end": "10/5/2016",
     "location": "Dimitriou's Jazz Alley, Seattle",
-    "website": "jazzalley.com",
-    "price": "$50.50"
+    "website": "http://www.jazzalley.com/www-home/",
+    "price": "$50.50",
+    "phone": "(206) 441-9729"
   },
   {
     "event": "Paula Becker ",
@@ -440,6 +470,7 @@
     "start": "10/5/2016",
     "time": "7 p.m.",
     "location": "Third Place Books Ravenna ",
+    "website": "http://www.thirdplacebooks.com/ravenna",
     "price": "free",
     "info": "Author discusses “Looking for Betty MacDonald: The Egg, The Plague, Mrs. Piggle-Wiggle and I.”"
   },
@@ -450,6 +481,7 @@
     "start": "10/6/2016",
     "time": "7 p.m.",
     "location": "Seattle Central Library",
+    "website": "http://www.spl.org/locations/central-library",
     "price": "free",
     "info": "Author discusses “Time Travel,” exploring time travel’s evolution in literature and science."
   },
@@ -462,7 +494,8 @@
     "location": "Meany Center for the Performing Arts",
     "website": "http://meanycenter.org",
     "price": "$60-$65",
-    "phone": "(206) 543-4882"
+    "pick": "x",
+    "info": "The almost-world-premiere of Morris’ “Layla and Majnun” (it’ll debut in Berkeley a week before arriving here) should be quite a visual and aural feast: Morris’ choreography, inspired by an ancient Persian tale; live accompaniment by mugham singers and the famed Silk Road musicians; colorful costumes and sets by British artist Howard Hodgkin."
   },
   {
     "event": "Catherine Russell",
@@ -471,8 +504,9 @@
     "start": "10/6/2016",
     "end": "10/9/2016",
     "location": "Dimitriou's Jazz Alley, Seattle",
-    "website": "jazzalley.com",
-    "price": "$31.50"
+    "website": "http://www.jazzalley.com/www-home/",
+    "price": "$31.50",
+    "phone": "(206) 441-9729"
   },
   {
     "event": "“Man of La Mancha”",
@@ -481,9 +515,10 @@
     "start": "10/7/2016",
     "end": "10/30/2016",
     "location": "The 5th Avenue Theatre,  Seattle",
-    "website": "5thavenue.org",
+    "website": "https://www.5thavenue.org/",
     "price": "$29-$136",
-    "phone": "(206) 625-1900"
+    "pick": "x",
+    "info": "Broadway and TV star Norm Lewis (“Phantom of the Opera,” “Scandal”) lends his baritone to the classic salute to visionaries and their quests, and its unforgettable tune, “The Impossible Dream.” Don Darryl Rivera plays Sancho and Nova Payton will play Aldonza. "
   },
   {
     "event": "Atlas Obscura Book Launch in the Hidden Tunnels of the Seattle Underground ",
@@ -492,6 +527,7 @@
     "start": "10/8/2016",
     "time": "9 p.m.",
     "location": "Seattle Underground",
+    "website": "http://www.atlasobscura.com/events/book-launch-seattle-underground",
     "price": "$90",
     "info": "Celebrate “Atlas Obscura: An Explorer’s Guide to the World’s Hidden Wonders,” with presentation of the book’s locations, live music, cocktails."
   },
@@ -502,6 +538,7 @@
     "start": "10/8/2016",
     "time": "7 p.m.",
     "location": "Seattle Central Library",
+    "website": "http://www.spl.org/locations/central-library",
     "price": "free",
     "info": "Awards announced in poetry, fiction, nonfiction and biography/memoir for adults; picture books, early readers, middle readers and teen literature; reception."
   },
@@ -523,6 +560,7 @@
     "start": "10/9/2016",
     "time": "4 p.m.",
     "location": "Elliott Bay Book Co.",
+    "website": "http://www.elliottbaybook.com/",
     "price": "$25 includes book.",
     "info": "Author discusses “Magnus Chase and the Gods of Asgard, Book Two: The Hammer of Thor.”"
   },
@@ -533,6 +571,7 @@
     "start": "10/10/2016",
     "time": "7:30 p.m.",
     "location": "Town Hall Seattle",
+    "website": "https://townhallseattle.org/",
     "price": "$5",
     "info": "Author discusses graphic novel “Last Look.”"
   },
@@ -543,6 +582,7 @@
     "start": "10/11/2016",
     "time": "7:30 p.m.",
     "location": "Town Hall Seattle",
+    "website": "https://townhallseattle.org/",
     "price": "$5",
     "info": "Author discusses “How to Bake Everything.”"
   },
@@ -553,6 +593,7 @@
     "start": "10/12/2016",
     "time": "7 p.m.",
     "location": "Seattle Central Library",
+    "website": "http://www.spl.org/locations/central-library",
     "price": "free",
     "info": "Author discusses the 30th anniversary edition of “Having Everything Right,” essays on the history, folklore and beauty of the Pacific Northwest."
   },
@@ -563,6 +604,7 @@
     "start": "10/12/2016",
     "time": "7 p.m.",
     "location": "Third Place Books Lake Forest Park",
+    "website": "http://www.thirdplacebooks.com/lake-forest-park",
     "price": "free",
     "info": "Author discusses children’s book “Bartholomew Quill: A Crow’s Quest to Know Who’s Who.”"
   },
@@ -573,6 +615,7 @@
     "start": "10/13/2016",
     "time": "7 p.m.",
     "location": "Elliott Bay Book Co.",
+    "website": "http://www.elliottbaybook.com/",
     "price": "free",
     "info": "Author discusses “Children of the New World.”"
   },
@@ -583,7 +626,7 @@
     "start": "10/13/2016",
     "time": "7:30 p.m.",
     "location": "Paramount Theatre",
-    "website": "stgpresents.org",
+    "website": "http://www.stgpresents.org/",
     "price": "$50-$138",
     "phone": "(877) 784-4849"
   },
@@ -594,6 +637,7 @@
     "start": "10/14/2016",
     "time": "7:30 p.m.",
     "location": "Town Hall Seattle",
+    "website": "https://townhallseattle.org/",
     "price": "$5",
     "info": "Author discusses “Precious and Grace.”"
   },
@@ -604,6 +648,7 @@
     "start": "10/14/2016",
     "time": "7:30 p.m.",
     "location": "Fred Wildlife Refuge",
+    "website": "http://www.fredwildliferefuge.com/",
     "price": "$10-$25",
     "info": "Richard Hugo House Literary Series hosts Obreht, author of novel “The Tiger’s Wife” and poets Corral and Baker, with music by Shaprece; bar open, books available for sale."
   },
@@ -614,6 +659,7 @@
     "start": "10/15/2016",
     "time": "2:30 p.m.",
     "location": "Bainbridge High School",
+    "website": "http://us.ams2016.crushdigital.co.uk/events/alexander-mccall-smith-on-bainbridge-island",
     "price": "free",
     "info": "Author discusses novel “Precious and Grace.” Priority signing line with purchase of book at Eagle Harbor Book Co. or Liberty Bay Books prior to the event."
   },
@@ -626,7 +672,7 @@
     "location": "McCaw Hall",
     "website": "http://seattleopera.org",
     "price": "$25-$292  ",
-    "phone": "(206) 389-7676"
+    "info": "Seattle Opera general director Aidan Lang said  this production of Engelbert Humperdinck’s work should resonate with Seattle audiences — it’s a fairy-tale-turned-commentary on consumer excess. Bye, candy cottage; hello, grocery store, and forest littered with plastic bags."
   },
   {
     "event": "Bryan Cranston ",
@@ -635,6 +681,7 @@
     "start": "10/16/2016",
     "time": "7:30 p.m.",
     "location": "Benaroya Hall",
+    "website": "http://www.seattlesymphony.org/BenaroyaHall",
     "price": "$45-$105 includes signed book; $10/students, no book.",
     "info": "Seattle Arts & Lectures hosts author to discuss “A Life in Parts,” hosted by Sherman Alexie."
   },
@@ -645,6 +692,7 @@
     "start": "10/16/2016",
     "time": "3 p.m.",
     "location": "Elliott Bay Book Co.",
+    "website": "http://www.elliottbaybook.com/",
     "price": "free",
     "info": "Author discusses “The Hidden Life of Trees.”"
   },
@@ -655,6 +703,7 @@
     "start": "10/17/2016",
     "time": "7:30 p.m.",
     "location": "Town Hall Seattle",
+    "website": "https://townhallseattle.org/",
     "price": "$5",
     "info": "Author discusses novel “The Secret Chord.”"
   },
@@ -665,9 +714,9 @@
     "start": "10/17/2016",
     "time": "8 p.m.",
     "location": "Moore Theatre",
-    "website": "stgpresents.org",
+    "website": "http://www.stgpresents.org/",
     "price": "$27.25",
-    "phone": "(877) 784-4849"
+    "info": "A master of doing multiple characters and voices and a veteran stand-up performer. Bamford just finished a season of “Lady Dynamite” for Netflix in which she plays a character loosely based on her real life. "
   },
   {
     "event": "Nisi Shawl ",
@@ -676,6 +725,7 @@
     "start": "10/19/2016",
     "time": "7 p.m.",
     "location": "Third Place Books Seward Park",
+    "website": "http://www.thirdplacebooks.com/seward-park",
     "price": "free",
     "info": "Author discusses “Everfair,” in conversation with Ted Chiang."
   },
@@ -686,6 +736,7 @@
     "start": "10/19/2016",
     "time": "7 p.m.",
     "location": "University Book Store",
+    "website": "http://www.bookstore.washington.edu/home/home.taf?",
     "price": "free",
     "info": "Author discusses “The Deepest Roots.”"
   },
@@ -696,9 +747,10 @@
     "start": "10/19/2016",
     "time": "8 p.m.",
     "location": "Benaroya Hall (S. Mark Taper Forum)",
-    "website": "seattlesymphony.org",
+    "website": "http://www.seattlesymphony.org/BenaroyaHall",
     "price": "sold out",
-    "phone": "(206) 215-4747  "
+    "pick": "x",
+    "info": "Jones’ new album, “Day Breaks” (Blue Note) is not only a return to roots, but a dazzling display of stylistic diversity that ranges from country-inflected piano and classic rock to trip-hop."
   },
   {
     "event": "Kanye West",
@@ -707,7 +759,7 @@
     "start": "10/19/2016",
     "time": "8 p.m.",
     "location": "KeyArena",
-    "website": "ticketmaster.com",
+    "website": "http://www.ticketmaster.com/",
     "price": "$25-$134",
     "phone": "(800) 745-3000"
   },
@@ -718,6 +770,7 @@
     "start": "10/20/2016",
     "time": "7:30 p.m.",
     "location": "Town Hall Seattle",
+    "website": "https://townhallseattle.org/",
     "price": "$5",
     "info": "Author discusses “The General vs. the President.”"
   },
@@ -728,7 +781,7 @@
     "start": "10/21/2016",
     "time": "8 p.m.",
     "location": "WaMu Theater, Seattle",
-    "website": "ticketmaster.com",
+    "website": "http://www.ticketmaster.com/",
     "price": "$35",
     "phone": "(800) 745-3000"
   },
@@ -739,6 +792,7 @@
     "start": "10/22/2016",
     "time": "7 p.m.",
     "location": "Elliott Bay Book Co.",
+    "website": "http://www.elliottbaybook.com/",
     "price": "free",
     "info": "Author discusses “The Wonder.”"
   },
@@ -760,6 +814,7 @@
     "start": "10/24/2016",
     "time": "7:30 p.m.",
     "location": "Town Hall Seattle",
+    "website": "https://townhallseattle.org/",
     "price": "$5",
     "info": "Northwest National Book Award winners and finalists discuss life, writing and basketball on the eve of the opening of the NBA basketball season."
   },
@@ -770,9 +825,10 @@
     "start": "10/24/2016",
     "time": "8 p.m.",
     "location": "WaMu Theater, Seattle",
-    "website": "ticketmaster.com",
+    "website": "http://www.ticketmaster.com/",
     "price": "$42",
-    "phone": "(800) 745-3000"
+    "pick": "x",
+    "info": "If there is a more brilliant artist practicing in any genre today, please tell us. Chicago rapper/storyteller/social critic Chancelor Bennett is a flat-out genius, and his jazzlike unpredictability makes every show a must-see. "
   },
   {
     "event": "Arlie Russell Hochschild ",
@@ -781,6 +837,7 @@
     "start": "10/25/2016",
     "time": "7 p.m.",
     "location": "Seattle Central Library",
+    "website": "http://www.spl.org/locations/central-library",
     "price": "free",
     "info": "Author discusses “Strangers in Their Own Land: Anger and Mourning on the American Right.”"
   },
@@ -791,8 +848,9 @@
     "start": "10/25/2016",
     "time": "8 p.m.",
     "location": "Seattle Art Museum",
-    "website": "earshot.org",
-    "price": "$10-$18"
+    "website": "http://www.earshot.org/",
+    "price": "$10-$18",
+    "phone": "(206) 654-3100"
   },
   {
     "event": "Timothy Egan ",
@@ -801,6 +859,7 @@
     "start": "10/26/2016",
     "time": "7:30 p.m.",
     "location": "Benaroya Hall",
+    "website": "http://www.seattlesymphony.org/BenaroyaHall",
     "price": "$10-$80",
     "info": "Seattle Arts & Lectures hosts author of seven books including “The Immortal Irishman: The Irish Revolutionary Who Became an American Hero.”"
   },
@@ -811,6 +870,7 @@
     "start": "10/26/2016",
     "time": "7 p.m.",
     "location": "Elliott Bay Book Co.",
+    "website": "http://www.elliottbaybook.com/",
     "price": "free",
     "info": "Author discusses “The Angel of History.”"
   },
@@ -822,7 +882,7 @@
     "end": "10/27/2016",
     "time": "7:30 p.m.",
     "location": "Moore Theatre",
-    "website": "stgpresents.org",
+    "website": "http://www.stgpresents.org/",
     "price": "$59.50-$99.50",
     "phone": "(877) 784-4849"
   },
@@ -833,6 +893,7 @@
     "start": "10/27/2016",
     "time": "7:30 p.m.",
     "location": "Seattle University Pigott Auditorium",
+    "website": "https://townhallseattle.org/event/t-c-boyle/",
     "price": "$5",
     "info": "Town Hall Seattle hosts author discussing novel “The Harder They Come.”"
   },
@@ -843,7 +904,7 @@
     "start": "10/27/2016",
     "end": "10/29/2016",
     "location": "Benaroya Hall (S. Mark Taper Forum)",
-    "website": "http://www.seattlesymphony.org",
+    "website": "http://www.seattlesymphony.org/BenaroyaHall",
     "price": "$22-$122",
     "phone": "(206) 215-4747  "
   },
@@ -854,6 +915,7 @@
     "start": "10/28/2016",
     "time": "7:30 p.m.",
     "location": "Benaroya Hall",
+    "website": "http://www.seattlesymphony.org/BenaroyaHall",
     "price": "$45-$90 includes book; $10/students, book not included.",
     "info": "Seattle Arts & Lectures hosts author of “Good Clean Fun: Misadventures in Sawdust at Offerman Woodship.”"
   },
@@ -864,7 +926,7 @@
     "start": "10/28/2016",
     "time": "6 p.m.",
     "location": "Bellevue Arts Museum",
-    "website": "bellevuearts.org",
+    "website": "http://www.bellevuearts.org/",
     "price": "$12-$15",
     "phone": "(425) 519-0770"
   },
@@ -875,6 +937,7 @@
     "start": "10/29/2016",
     "time": "7 p.m.",
     "location": "Elliott Bay Book Co.",
+    "website": "http://www.elliottbaybook.com/",
     "price": "free",
     "info": "Author discusses “The Secret History of Twin Peaks.”"
   },
@@ -885,8 +948,9 @@
     "start": "10/29/2016",
     "time": "8 p.m.",
     "location": "Seattle Art Museum",
-    "website": "earshot.org",
-    "price": "$10-$24"
+    "website": "http://www.earshot.org/",
+    "price": "$10-$24",
+    "phone": "(206) 654-3100"
   },
   {
     "event": "Hilary Hahn in Recital ",
@@ -895,9 +959,9 @@
     "start": "10/30/2016",
     "time": "2 p.m.",
     "location": "Benaroya Hall (S. Mark Taper Forum)",
-    "website": "http://www.seattlesymphony.org",
+    "website": "http://www.seattlesymphony.org/BenaroyaHall",
     "price": "$61-$138",
-    "phone": "(206) 215-4747  "
+    "info": "Whenever violinist Hahn sweeps on stage, a frisson of excitement passes through the audience — she’s that good and is adored that much. A champion of new music and arts education, she has a Twitter following of more than 70,000. “Regardless of what she plays, Hahn is an utterly convincing interpreter who makes the music sound natural and unforced — even easy, when it’s decidedly not easy at all,” wrote Seattle Times music critic Melinda Bargreen. Indeed."
   },
   {
     "event": "Mariza",
@@ -917,7 +981,7 @@
     "start": "11/3/2016",
     "end": "11/6/2016",
     "location": "Benaroya Hall (S. Mark Taper Forum)",
-    "website": "http://www.seattlesymphony.org",
+    "website": "http://www.seattlesymphony.org/BenaroyaHall",
     "price": "$22-$122",
     "phone": "(206) 215-4747  "
   },
@@ -928,6 +992,7 @@
     "start": "11/4/2016",
     "time": "7 p.m.",
     "location": "Seattle Central Library",
+    "website": "http://www.spl.org/locations/central-library",
     "price": "free",
     "info": "Author discusses novel  “The Boat Rocker.”"
   },
@@ -938,6 +1003,7 @@
     "start": "11/4/2016",
     "time": "7:30 p.m.",
     "location": "Fred Wildlife Refuge",
+    "website": "http://www.fredwildliferefuge.com/",
     "price": "$10-$25",
     "info": "Richard Hugo House Literary Series on the theme “Animals,” with Chee, author of novels “Edinburgh” and “The Queen of The Night”; Valdez-Quade, author of story collection “Night at the Fiestas;” and Seattle writer Sycamore, with music, bar, books for sale."
   },
@@ -948,9 +1014,9 @@
     "start": "11/4/2016",
     "time": "8 p.m.",
     "location": "Benaroya Hall (S. Mark Taper Forum)",
-    "website": "http://www.seattlesymphony.org",
+    "website": "http://www.seattlesymphony.org/BenaroyaHall",
     "price": "$82-$165",
-    "phone": "(206) 215-4747  "
+    "info": "The LA Phil is an orchestra on top of  its game: It’s well-funded, performs at two fantastic venues (Disney Hall and Hollywood Bowl) and has a masterful maestro. All that, and it makes great music, too. It’s been a while since an orchestra paid a visit here, and this is well worth your time, given the program: Dudamel will be leading LAP in Mahler’s Ninth."
   },
   {
     "event": "Jerry Seinfeld ",
@@ -959,7 +1025,7 @@
     "start": "11/4/2016",
     "time": "7 p.m. & 9:30 p.m.",
     "location": "Paramount Theatre",
-    "website": "stgpresents.org",
+    "website": "http://www.stgpresents.org/",
     "price": "$46.25-$146.25",
     "phone": "(877) 784-4849"
   },
@@ -970,7 +1036,7 @@
     "start": "11/4/2016",
     "end": "11/13/2016",
     "location": "McCaw Hall",
-    "website": "pnb.org",
+    "website": "https://www.pnb.org/",
     "price": "$25-$187",
     "phone": "(206) 441-2424"
   },
@@ -981,9 +1047,10 @@
     "start": "11/5/2016",
     "end": "11/7/2016",
     "location": "Paramount Theatre",
-    "website": "stgpresents.org",
+    "website": "http://www.stgpresents.org/",
     "price": "$40.50",
-    "phone": "(877) 784-4849"
+    "pick": "x",
+    "info": "Though touring minus one of its members (Josiah Johnson, recovering from addiction), this sturdy Seattle sextet just released the most accomplished, organically coherent album of its career, “Signs of Light,” which ought to finally earn this worthy folk-rock band a gold record."
   },
   {
     "event": "Bill Frisell “When You Wish Upon a Star” with Petra Haden, Thomas Morgan &amp; Matt Chamberlain",
@@ -992,7 +1059,7 @@
     "start": "11/5/2016",
     "time": "8 p.m.",
     "location": "Moore Theatre",
-    "website": "earshot.org",
+    "website": "http://www.earshot.org/",
     "price": "$28-$39",
     "phone": "(877) 784-4849"
   },
@@ -1003,7 +1070,7 @@
     "start": "11/9/2016",
     "time": "8 p.m.",
     "location": "Pantages Theater, Tacoma",
-    "website": "stgpresents.org",
+    "website": "http://www.stgpresents.org/",
     "price": "$37.50",
     "phone": "(877) 784-4849"
   },
@@ -1014,7 +1081,7 @@
     "start": "11/11/2016",
     "end": "12/24/2016",
     "location": "Seattle Repertory Theatre, Bagley Wright Theatre, Seattle",
-    "website": "seattlerep.org",
+    "website": "http://seattlerep.org/",
     "price": "$17-$100 ",
     "phone": "(206) 443-2222"
   },
@@ -1025,7 +1092,7 @@
     "start": "11/12/2016",
     "time": "7:30 p.m.",
     "location": "Paramount Theatre",
-    "website": "stgpresents.org",
+    "website": "http://www.stgpresents.org/",
     "price": "$51.25-$121.25",
     "phone": "(877) 784-4849"
   },
@@ -1036,7 +1103,7 @@
     "start": "11/16/2016",
     "time": "8 p.m.",
     "location": "Neptune Theatre",
-    "website": "stgpresents.org",
+    "website": "http://www.stgpresents.org/",
     "price": "$18.50-$23.50",
     "phone": "(877) 784-4849"
   },
@@ -1047,6 +1114,7 @@
     "start": "11/17/2016",
     "time": "7 p.m.",
     "location": "Seattle Central Library",
+    "website": "http://www.spl.org/locations/central-library",
     "price": "free",
     "info": "Author discusses “The Attention Merchants: The Epic Scramble to Get Inside Our Heads.”"
   },
@@ -1057,9 +1125,9 @@
     "start": "11/17/2016",
     "time": "7:30 p.m.",
     "location": "Snoqualmie Casino",
-    "website": "snocasino.com",
+    "website": "http://www.snocasino.com/",
     "price": "$30-$45",
-    "phone": "(425) 888-1234"
+    "info": "Best-known for his three-year stint anchoring Saturday Night Live’s “Weekend Update,” Macdonald is a witty and acerbic stand-up performer who refuses to pull his punches. According to David Letterman, “There may be people as funny as Norm, but I don’t know anybody who is funnier.”"
   },
   {
     "event": "SAM Remix",
@@ -1068,7 +1136,7 @@
     "start": "11/18/2016",
     "time": "8 p.m.",
     "location": "Seattle Art Museum",
-    "website": "seattleartmuseum.org",
+    "website": "http://seattleartmuseum.org/",
     "price": "$12-$25",
     "phone": "(206) 654-3100"
   },
@@ -1079,6 +1147,7 @@
     "start": "11/19/2016",
     "time": "3 p.m.",
     "location": "Phinney Neighborhood Center",
+    "website": "http://www.seattle7writers.org/holiday-bookfest.html",
     "price": "free",
     "info": "Readings and book signings by 27 local authors including Daniel James Brown, Garth Stein, Elizabeth George, Nancy Horan, Kevin O’Brien, Jim Lynch, Lynn Brunnell, Deb Caletti, Boyd Morrison, Megan Chance, Sean Beaudoin, Bridget Foley, Stephanie Kallos, Peter Mountford, Tara Austen Weaver, Thor Hanson, Lyanada Lynn Haupt, Dori Hillestad Butler, Waverly Fitzgerald, William Dietrich, Bharti Kirchner, Clare Meeker, David Laskin, Donna Miscolta, David Lasky, Ed Skoog, David Williams;  boutique bookstore,  treats made by the authors."
   },
@@ -1090,7 +1159,7 @@
     "end": "11/21/2016",
     "time": "8 p.m.",
     "location": "Paramount Theatre",
-    "website": "stgpresents.org",
+    "website": "http://www.stgpresents.org/",
     "price": "$94.25",
     "phone": "(877) 784-4849"
   },
@@ -1101,7 +1170,7 @@
     "start": "11/20/2016",
     "time": "1 p.m.",
     "location": "Moore Theatre",
-    "website": "stgpresents.org",
+    "website": "http://www.stgpresents.org/",
     "price": "$30",
     "phone": "(877) 784-4849"
   },
@@ -1112,7 +1181,7 @@
     "start": "11/22/2016",
     "time": "7 p.m.",
     "location": "Neptune Theatre",
-    "website": "stgpresents.org",
+    "website": "http://www.stgpresents.org/",
     "price": "$20-$21.50",
     "phone": "(877) 784-4849"
   },
@@ -1126,5 +1195,67 @@
     "website": "http://meanycenter.org/events-tickets/calendar/jonathan-biss-0",
     "price": "$40-$45",
     "phone": "(206) 543-4880 "
+  },
+  {
+    "event": "Jessica Lang Dance ",
+    "category": "Dance",
+    "className": "dance",
+    "start": "11/10/2016",
+    "end": "11/12/2016",
+    "time": "8 p.m.",
+    "location": "Meany Center for the Performing Arts",
+    "website": "http://meanycenter.org",
+    "price": "$45-$50",
+    "pick": "x",
+    "info": "Lang’s inventive work, in which her dancers often interact with structures or props (i.e. that enormous skirt in “The Calling”), will be seen later next season at PNB. Get a preview here, with a rep program that includes “Tesseracts of Time” – created in collaboration with acclaimed architect (and former local) Stephen Holl."
+  },
+  {
+    "event": "“On Clover Road”",
+    "category": "Theater",
+    "className": "theater",
+    "start": "9/22/2016",
+    "end": "10/16/2016",
+    "time": "Varies",
+    "location": "Seattle Public Theater at the Bathhouse",
+    "website": "http://www.seattlepublictheater.org/",
+    "price": "$17-$34",
+    "pick": "x",
+    "info": "Regional theater mainstay Steven Dietz (“Becky’s New Car,” “Bloomsday,” “Jackie and Me”) ventures into thriller territory with “Clover Road.” In it,  an anxious mother waits in a dingy motel room to meet the deprogrammer that (she hopes) will save her runaway daughter from a dangerous cult. As the play unfolds, however, it’s not so easy to tell whom the audience should be rooting for."
+  },
+  {
+    "event": "Verdensteatret: “Bridge Over Mud”",
+    "category": "Theater",
+    "className": "theater",
+    "start": "9/22/2016",
+    "end": "9/25/2016",
+    "time": "Varies",
+    "location": "On the Boards, Seattle",
+    "website": "http://www.ontheboards.org/performances/bridge-over-mud",
+    "price": "$23-$25",
+    "pick": "x",
+    "info": "Innovative Norwegian theater company Verdensteatret makes its Seattle debut with a performance that is “a dream factory for your unconscious” — assuming that your factory includes 195 feet of railroad tracks, a “movable room” and 60 speakers. Sounds like mind-expanding fun to us.  "
+  },
+  {
+    "event": "“30 Americans”",
+    "category": "Visual Art",
+    "className": "art",
+    "start": "9/24/2016",
+    "end": "1/15/2017",
+    "time": "Museum hours",
+    "location": "Tacoma Art Museum",
+    "website": "http://www.tacomaartmuseum.org/",
+    "price": "$15",
+    "pick": "x",
+    "info": "This show of more than 50 works by African-American artists is sure to be a stunner, laden with such names as  Jean-Michel Basquiat, Nick Cave,  Glenn Ligon, Mickalene Thomas, Kara Walker, Carrie Mae Weems and Kehinde Wiley. The  paintings, sculptures, installations, photographs and videos address the timely topics of race, history and gender."
+  },
+  {
+    "event": "“Yves Saint Laurent: The Perfection of Style\"",
+    "category": "Visual Art",
+    "className": "art",
+    "start": "10/11/2016",
+    "end": "1/8/2017",
+    "time": "Museum hours",
+    "location": "Seattle Art Museum",
+    "website": "http://seattleartmuseum.org/"
   }
 ]
