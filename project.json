@@ -6,16 +6,16 @@
     },
     "live": {
       "bucket": "projects.seattletimes.com",
-      "path": ""
+      "path": "2016/fall-arts-guide"
     }
   },
   "title": "Fall Arts Guide 2016",
-  "description": "",
-  "url": "",
+  "description": "Use our fall arts guide to plan your season! This calendar includes our editors' picks for autumn events -- everything from concerts to comedy to books and ballet.",
+  "url": "https://projects.seattletimes.com/2016/fall-arts-guide/",
   "slug": "",
   "tags": [],
-  "image": "assets/social.jpg",
+  "image": "assets/header.jpg",
   "sheets": ["1S1ZA8SwHbrxEbNdNK0nRUk6ecVxI_txGGFfPPH35MDg"],
   "production": false,
-  "embedded": true
+  "embedded": false
 }
