@@ -4,6 +4,21 @@ require("./lib/ads");
 
 var $ = require("./lib/qsa");
 var debounce = require("./lib/debounce");
+var scrollTo = require("./lib/animateScroll");
+
+var parseDate = function(str) {
+  var [month, day, year] = str.split("/").map(Number);
+  month -= 1;
+  return new Date(year, month, day);
+}
+
+var formatDate = function(date) {
+  var months = [null, "Jan.", "Feb.", "Mar.", "Apr.", "May", "June", "July", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."];
+  var day = date.getDate();
+  var month = date.getMonth() + 1;
+  var year = date.getFullYear();
+  return `${months[month]} ${day}`;
+}
 
 // rebuild data from the DOM
 var rows = $(".fall-arts tbody.events tr").map(function(tr) {
@@ -12,8 +27,25 @@ var rows = $(".fall-arts tbody.events tr").map(function(tr) {
   props.forEach(p => o[p] = tr.querySelector("." + p).innerHTML.trim().replace("&amp;", "&"));
   o.element = tr;
   o.category = tr.getAttribute("data-category");
+  o.start = parseDate(tr.getAttribute("data-start"));
+  if (tr.getAttribute("data-end")) o.end = parseDate(tr.getAttribute("data-end"));
+  tr.querySelector("span.start").innerHTML = formatDate(o.start);
+  if (o.end) tr.querySelector("span.end").innerHTML = formatDate(o.end);
   return o;
 });
+
+//scroll to today's events
+document.querySelector(".jump-to-today").addEventListener("click", function() {
+  var today = new Date();
+  today.setHours(0);
+  today.setMinutes(0);
+  today.setSeconds(0);
+  for (var i = 0; i < rows.length; i++) {
+    var row = rows[i];
+    if (row.end >= today) return scrollTo(row.element);
+    if (row.start >= today) return scrollTo(row.element);
+  }
+})
 
 var catList = document.querySelector(".filters .categories");
 var searchBox = document.querySelector(".filters .search");

@@ -13,6 +13,7 @@ header.top {
 main.table-container {
   max-width: 960px;
   padding: 0 16px;
+  margin: auto;
 }
 
 .filters {
@@ -76,9 +77,10 @@ main.table-container {
 
 .fall-arts {
   width: 100%;
-  max-width: 960px;
   margin: auto;
   border-collapse: collapse;
+  font-size: 15px;
+  font-family: @df-sans;
 
   @media @mobile {
     &, tbody, tr, th, td {
@@ -103,7 +105,7 @@ main.table-container {
       border-bottom: 1px solid @df-light-gray;
     }
     vertical-align: top;
-    padding: 0 4px 8px 0;
+    padding: 0 16px 4px 0;
   }
 
   .hidden {
@@ -135,6 +137,10 @@ main.table-container {
       border-top: 1px solid @df-light-gray;
       margin-top: 10px;
       padding-top: 10px;
+    }
+
+    .date .start, .date .end {
+      font-weight: bold;
     }
   }
 

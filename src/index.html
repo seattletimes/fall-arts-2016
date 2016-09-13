@@ -19,7 +19,7 @@
       <h1><img src="./assets/header.jpg" alt="Seattle Times Fall Arts Guide"></h1>
 
       <p>
-        This is the fall arts guide &mdash; everything you could possibly want to do this fall in Seattle, from books to concerts to art shows.
+        This is the fall arts guide &mdash; everything you could possibly want to do this fall in Seattle, from books to concerts to art shows. <a class="jump-to-today">Click here to scroll to upcoming events.</a>
     </header>
 
     <main class="table-container">
@@ -68,14 +68,23 @@
             art: "visualart.png"
           } %>
           <% json.guide.forEach(function(item) { %>
-          <tr data-category="<%= item.className %>">
+          <tr data-category="<%= item.className %>" data-start="<%= item.start %>" data-end="<%= item.end %>">
             <td class="category">
               <img src="./assets/icons/<%= icons[item.className] %>"
                 alt="<%= item.category %>"
                 title="<%= item.category %>"
               >
             </td>
-            <td class="date"><%= item.date %>
+            <td class="date">
+              <span class="start"><%= item.start %></span>
+              <% if (item.end) { %>
+              - <span class="end"><%= item.end %></span>
+              <% } %>
+              <% if (item.time) { %>
+              <div class="time">
+                <%= item.time %>
+              </div>
+              <% } %>
             <td class="event">
               <% if (item.website) { %>
               <a href="<%= item.website %>">
@@ -86,6 +95,9 @@
               <% } %>
             <td class="location"><%= item.location %>
             <td class="description"><%= item.info %>
+              <% if (item.phone) { %>
+              <div class="phone">Call for info: <%= item.phone %></div>
+              <% } %>
           <% }) %>
         <tbody class="emptied">
           <tr>

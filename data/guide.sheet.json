@@ -1,533 +1,1130 @@
 [
   {
-    "event": "ex: Jonathan Franzen",
-    "category": "Books & Authors",
-    "className": "books",
-    "date": "Sept. 9",
-    "location": "Town Hall Seattle",
-    "website": "townhallseattle.org",
-    "info": "Love him or hate him, he is hands-down one of America’s great novelists. Hear him discuss his new novel, “Purity,” about a young woman in thrall to a WikiLeaks-type leader."
+    "event": "“Hotel L'Amour”",
+    "category": "Theater",
+    "className": "theater",
+    "start": "6/16/2016",
+    "end": "9/25/2016",
+    "location": "Teatro ZinZanni, Seattle",
+    "website": "zinzanni.com",
+    "price": "$99-$174",
+    "phone": "(206) 802-0015"
+  },
+  {
+    "event": "“Wedding Band”",
+    "category": "Theater",
+    "className": "theater",
+    "start": "9/6/2016",
+    "end": "10/2/2016",
+    "location": "Intiman Theatre at the Floyd and Delores Jones Playhouse, Seattle",
+    "website": "intiman.org",
+    "price": "$20-$40 ",
+    "phone": "(206) 315-5838"
+  },
+  {
+    "event": "Whim W'Him Choreographic Shindig 2016 ",
+    "category": "Dance",
+    "className": "dance",
+    "start": "9/9/2016",
+    "end": "9/17/2016",
+    "time": "8 p.m.",
+    "location": "Erickson Theater Off Broadway",
+    "website": "whimwhim.org",
+    "price": "$15-$30",
+    "phone": "(800) 838-3006"
   },
   {
     "event": "Peter Ho Davies ",
     "category": "Books & Authors",
     "className": "books",
-    "date": "Sept. 15",
+    "start": "9/15/2016",
+    "time": "7 p.m.",
     "location": "Elliott Bay Book Co.",
-    "info": "Author discusses “The Fortunes.” 7 p.m., free."
+    "price": "free",
+    "info": "Author discusses “The Fortunes.”"
+  },
+  {
+    "event": "Karrin Allyson",
+    "category": "Pop & Rock & Jazz",
+    "className": "pop",
+    "start": "9/15/2016",
+    "end": "9/18/2016",
+    "location": "Dimitriou's Jazz Alley, Seattle",
+    "website": "jazzalley.com",
+    "price": "$29.50"
+  },
+  {
+    "event": "Bonnie Raitt",
+    "category": "Pop & Rock & Jazz",
+    "className": "pop",
+    "start": "9/16/2016",
+    "time": "7 p.m.",
+    "location": "Chateau Ste. Michelle",
+    "website": "ste-michelle.com",
+    "price": "$50.50-$86"
+  },
+  {
+    "event": "Drake, Future",
+    "category": "Pop & Rock & Jazz",
+    "className": "pop",
+    "start": "9/16/2016",
+    "time": "6:30 p.m.",
+    "location": "Tacoma Dome",
+    "website": "ticketmaster.com",
+    "price": "$49.50-$129.50",
+    "phone": "(800) 745-3000"
   },
   {
     "event": "Jeffrey Toobin",
     "category": "Books & Authors",
     "className": "books",
-    "date": "Sept. 17",
+    "start": "9/17/2016",
+    "time": "2 p.m.",
     "location": "Town Hall Seattle",
-    "info": "Seattle Public Library’s A. Scott Bullitt Lecture in American History features the author of “American Heiress” and  “The Nine: Inside the Secret World of the Supreme Court” presenting  “Analyzing Politics, the Media and the Law.”  2 p.m., free."
+    "price": "free",
+    "info": "Seattle Public Library’s A. Scott Bullitt Lecture in American History features the author of “American Heiress” and  “The Nine: Inside the Secret World of the Supreme Court” presenting  “Analyzing Politics, the Media and the Law.”"
   },
   {
     "event": "Colson Whitehead ",
     "category": "Books & Authors",
     "className": "books",
-    "date": "Sept. 17",
+    "start": "9/17/2016",
+    "time": "7 p.m.",
     "location": "Seattle Central Library",
-    "info": "Author discusses novel “The Underground Railroad.”  7 p.m., free."
+    "price": "free",
+    "editor's pick": "x",
+    "info": "Author discusses novel “The Underground Railroad.”"
   },
   {
     "event": "David B. Williams ",
     "category": "Books & Authors",
     "className": "books",
-    "date": "Sept. 17",
+    "start": "9/17/2016",
+    "time": "2 p.m.",
     "location": "Vashon Library",
-    "info": "Author discusses “Too High, Too Steep: Reshaping Seattle’s Topography.”  2 p.m., free."
-  },
-  {
-    "event": "Ann Patchett ",
-    "category": "Books & Authors",
-    "className": "books",
-    "date": "Sept. 19",
-    "location": "Benaroya Hall",
-    "info": "Seattle Arts & Lectures hosts author of “Commonwealth.”  7:30 p.m., $10-$80."
-  },
-  {
-    "event": "Mary Beard ",
-    "category": "Books & Authors",
-    "className": "books",
-    "date": "Sept. 19",
-    "location": "Town Hall Seattle",
-    "info": "Author discusses “SPQR: A History of Ancient Rome.”  7:30 p.m., $5."
-  },
-  {
-    "event": "Amy Stewart ",
-    "category": "Books & Authors",
-    "className": "books",
-    "date": "Sept. 20",
-    "location": "Seattle Mystery Bookshop",
-    "info": "Author signs “Lady Cop Makes Trouble.” Noon, free."
-  },
-  {
-    "event": "Amy Stewart ",
-    "category": "Books & Authors",
-    "className": "books",
-    "date": "Sept. 20",
-    "location": "Third Place Books Lake Forest Park",
-    "info": "Author discusses novel  “Lady Cop Makes Trouble.”  7 p.m., free."
-  },
-  {
-    "event": "Jacqueline Woodson ",
-    "category": "Books & Authors",
-    "className": "books",
-    "date": "Sept. 21",
-    "location": "Elliott Bay Book Co.,",
-    "info": "Author discusses “Another Brooklyn.”  7 p.m., free."
-  },
-  {
-    "event": "Amor Towles ",
-    "category": "Books & Authors",
-    "className": "books",
-    "date": "Sept. 21",
-    "location": "Folio: The Seattle Athenaeum",
-    "info": "Author discusses “A Gentleman in Moscow.”  7 p.m., $5."
-  },
-  {
-    "event": "Ian Brown ",
-    "category": "Books & Authors",
-    "className": "books",
-    "date": "Sept. 22",
-    "location": "Town Hall Seattle",
-    "info": "Author discusses “Sixty: A Diary of My Sixty-First Year.”  7:30 p.m., $5."
-  },
-  {
-    "event": "Tim Murphy ",
-    "category": "Books & Authors",
-    "className": "books",
-    "date": "Sept. 25",
-    "location": "Third Place Books Seward Park",
-    "info": "Hugo House hosts author of novel “Christodora,” in conversation with David Schmader.  7 p.m., free."
-  },
-  {
-    "event": "Jonathan Safran Foer ",
-    "category": "Books & Authors",
-    "className": "books",
-    "date": "Sept. 26",
-    "location": "Town Hall Seattle",
-    "info": "Author discusses “Here I Am.” 7:30 p.m., $34.89 for one or two people includes book."
-  },
-  {
-    "event": "Lynne Cox",
-    "category": "Books & Authors",
-    "className": "books",
-    "date": "Sept. 26",
-    "location": "Elliott Bay Book Co.",
-    "info": "Author discusses “Swimming in the Sink: An Episode of the Heart.”  7 p.m., free."
-  },
-  {
-    "event": "Stacy Schiff ",
-    "category": "Books & Authors",
-    "className": "books",
-    "date": "Sept. 27",
-    "location": "Seattle Central Library",
-    "info": "Author discusses “The Witches: Salem, 1692.”  7 p.m., free."
-  },
-  {
-    "event": "Alexander Maksik ",
-    "category": "Books & Authors",
-    "className": "books",
-    "date": "Sept. 27",
-    "location": "Third Place Books Ravenna",
-    "info": "Author discusses “Shelter in Place.”  7 p.m., free."
-  },
-  {
-    "event": "Paula Becker ",
-    "category": "Books & Authors",
-    "className": "books",
-    "date": "Sept. 28",
-    "location": "University Book Store",
-    "info": "Author discusses “Looking for Betty MacDonald: The Egg, The Plague, Mrs. Piggle-Wiggle and I.”  7 p.m., free."
-  },
-  {
-    "event": "Tyehimba Jess, Anselm Berrigan, Don Mee Choi, Joshua Beckman ",
-    "category": "Books & Authors",
-    "className": "books",
-    "date": "Sept. 30",
-    "location": "Fred Wildlife Refuge",
-    "info": "Richard Hugo House hosts readings by Pacific Northwest poets. 8 p.m., free."
-  },
-  {
-    "event": "David Quammen",
-    "category": "Books & Authors",
-    "className": "books",
-    "date": "Sept. 30",
-    "location": "Town Hall Seattle",
-    "info": "Author discusses “Yellowstone: A Journey Through America’s Wild Heart.”  7:30 p.m., $5."
-  },
-  {
-    "event": "Ngugi wa Thiong'o",
-    "category": "Books & Authors",
-    "className": "books",
-    "date": "Oct. 1",
-    "location": "Elliott Bay Book Co.",
-    "info": "Author discusses “Birth of a Dream Weaver.”  7 p.m., free."
-  },
-  {
-    "event": "Whitney Terrell ",
-    "category": "Books & Authors",
-    "className": "books",
-    "date": "Oct. 3",
-    "location": "Elliott Bay Book Co.",
-    "info": "Author discusses “The Good Lieutenant.”  7 p.m., free."
-  },
-  {
-    "event": "Pete Fromm",
-    "category": "Books & Authors",
-    "className": "books",
-    "date": "Oct. 3",
-    "location": "Third Place Books Ravenna",
-    "info": "Author discusses “The Names of the Stars: A Life in the Wilds.”  7 p.m., free."
-  },
-  {
-    "event": "Patti Smith",
-    "category": "Books & Authors",
-    "className": "books",
-    "date": "Oct. 3",
-    "location": "University Temple United Methodist Church",
-    "info": "Author discusses “M Train.”  7 p.m., $17.54."
-  },
-  {
-    "event": "Pete Fromm",
-    "category": "Books & Authors",
-    "className": "books",
-    "date": "Oct. 4",
-    "location": "Elliott Bay Book Co.",
-    "info": "Author discusses “The Names of the Stars: A Life in the Wilds.”  7 p.m., free."
-  },
-  {
-    "event": "Paula Becker ",
-    "category": "Books & Authors",
-    "className": "books",
-    "date": "Oct. 5",
-    "location": "Third Place Books Ravenna ",
-    "info": "Author discusses “Looking for Betty MacDonald: The Egg, The Plague, Mrs. Piggle-Wiggle and I.”  7 p.m., free."
-  },
-  {
-    "event": "James Gleick ",
-    "category": "Books & Authors",
-    "className": "books",
-    "date": "Oct. 6",
-    "location": "Seattle Central Library",
-    "info": "Author discusses “Time Travel,” exploring time travel’s evolution in literature and science. 7 p.m., free."
-  },
-  {
-    "event": "Atlas Obscura Book Launch in the Hidden Tunnels of the Seattle Underground ",
-    "category": "Books & Authors",
-    "className": "books",
-    "date": "Oct. 8",
-    "location": "Seattle Underground",
-    "info": "Celebrate “Atlas Obscura: An Explorer’s Guide to the World’s Hidden Wonders,” with presentation of the book’s locations, live music, cocktails. 9 p.m., $90."
-  },
-  {
-    "event": "Washington State Book Awards Celebration ",
-    "category": "Books & Authors",
-    "className": "books",
-    "date": "Oct. 8",
-    "location": "Seattle Central Library",
-    "info": "Awards announced in poetry, fiction, nonfiction and biography/memoir for adults; picture books, early readers, middle readers and teen literature; reception. 7 p.m., free."
-  },
-  {
-    "event": "Rick Riordan ",
-    "category": "Books & Authors",
-    "className": "books",
-    "date": "Oct. 9",
-    "location": "Elliott Bay Book Co.",
-    "info": "Author discusses “Magnus Chase and the Gods of Asgard, Book Two: The Hammer of Thor.”  4 p.m., $25 includes book."
-  },
-  {
-    "event": "Charles Burns ",
-    "category": "Books & Authors",
-    "className": "books",
-    "date": "Oct. 10",
-    "location": "Town Hall Seattle",
-    "info": "Author discusses graphic novel “Last Look.”  7:30 p.m., $5."
-  },
-  {
-    "event": "Mark Bittman ",
-    "category": "Books & Authors",
-    "className": "books",
-    "date": "Oct. 11",
-    "location": "Town Hall Seattle",
-    "info": "Author discusses “How to Bake Everything.”  7:30 p.m., $5."
-  },
-  {
-    "event": "Kim Stafford ",
-    "category": "Books & Authors",
-    "className": "books",
-    "date": "Oct. 12",
-    "location": "Seattle Central Library",
-    "info": "Author discusses the 30th anniversary edition of “Having Everything Right,” essays on the history, folklore and beauty of the Pacific Northwest.  7 p.m., free."
-  },
-  {
-    "event": "Thor Hanson",
-    "category": "Books & Authors",
-    "className": "books",
-    "date": "Oct. 12",
-    "location": "Third Place Books Lake Forest Park",
-    "info": "Author discusses children’s book “Bartholomew Quill: A Crow’s Quest to Know Who’s Who.”  7 p.m., free."
-  },
-  {
-    "event": "Alexander Weinstein ",
-    "category": "Books & Authors",
-    "className": "books",
-    "date": "Oct. 13",
-    "location": "Elliott Bay Book Co.",
-    "info": "Author discusses “Children of the New World.”  7 p.m., free."
-  },
-  {
-    "event": "Alexander McCall Smith",
-    "category": "Books & Authors",
-    "className": "books",
-    "date": "Oct. 14",
-    "location": "Town Hall Seattle",
-    "info": "Author discusses “Precious and Grace.”  7:30 p.m., $5."
-  },
-  {
-    "event": "Tea Obreht, Eduardo C. Corral, Quenton Baker ",
-    "category": "Books & Authors",
-    "className": "books",
-    "date": "Oct. 14",
-    "location": "Fred Wildlife Refuge",
-    "info": "Richard Hugo House Literary Series hosts Obreht, author of novel “The Tiger’s Wife” and poets Corral and Baker, with music by Shaprece; bar open, books available for sale.  7:30 p.m., $10-$25."
-  },
-  {
-    "event": "Alexander McCall Smith",
-    "category": "Books & Authors",
-    "className": "books",
-    "date": "Oct. 15",
-    "location": "Bainbridge High School",
-    "info": "Author discusses novel “Precious and Grace.” 2:30 p.m., free; priority signing line with purchase of book at Eagle Harbor Book Co. or Liberty Bay Books prior to the event."
-  },
-  {
-    "event": "Bryan Cranston ",
-    "category": "Books & Authors",
-    "className": "books",
-    "date": "Oct. 16",
-    "location": "Benaroya Hall",
-    "info": "Seattle Arts & Lectures hosts author to discuss “A Life in Parts,” hosted by Sherman Alexie. 7:30 p.m., $45-$105 includes signed book; $10/students, no book."
-  },
-  {
-    "event": "Peter Wohlleben ",
-    "category": "Books & Authors",
-    "className": "books",
-    "date": "Oct. 16",
-    "location": "Elliott Bay Book Co.",
-    "info": "Author discusses “The Hidden Life of Trees.”  3 p.m., free."
-  },
-  {
-    "event": "Nisi Shawl ",
-    "category": "Books & Authors",
-    "className": "books",
-    "date": "Oct. 19",
-    "location": "Third Place Books Seward Park",
-    "info": "Author discusses “Everfair,” in conversation with Ted Chiang. 7 p.m., free."
-  },
-  {
-    "event": "Kathleen Alcala",
-    "category": "Books & Authors",
-    "className": "books",
-    "date": "Oct. 19",
-    "location": "University Book Store",
-    "info": "Author discusses “The Deepest Roots.”  7 p.m., free."
-  },
-  {
-    "event": "H.W. Brands ",
-    "category": "Books & Authors",
-    "className": "books",
-    "date": "Oct. 20",
-    "location": "Town Hall Seattle",
-    "info": "Author discusses “The General vs. the President.”  7:30 p.m., $5."
-  },
-  {
-    "event": "Emma Donoghue",
-    "category": "Books & Authors",
-    "className": "books",
-    "date": "Oct. 22",
-    "location": "Elliott Bay Book Co.",
-    "info": "Author discusses “The Wonder.”  7 p.m., free."
-  },
-  {
-    "event": "Mario Batali ",
-    "category": "Books & Authors",
-    "className": "books",
-    "date": "Oct. 23",
-    "location": "University Temple United Methodist Church",
-    "website": "http://www.brownpapertickets.com/event/2566870",
-    "info": "Author discusses “Big American Cookbook,” in conversation with Tom Douglas. 4 p.m., $42.39 for one or two people,  includes book. "
-  },
-  {
-    "event": "Jess Walter, Tim Egan and Sherman Alexie",
-    "category": "Books & Authors",
-    "className": "books",
-    "date": "Oct. 24",
-    "location": "Town Hall Seattle",
-    "info": "Northwest National Book Award winners and finalists discuss life, writing and basketball on the eve of the opening of the NBA basketball season. 7:30 p.m., $5."
-  },
-  {
-    "event": "Arlie Russell Hochschild ",
-    "category": "Books & Authors",
-    "className": "books",
-    "date": "Oct. 25",
-    "location": "Seattle Central Library",
-    "info": "Author discusses “Strangers in Their Own Land: Anger and Mourning on the American Right.”  7 p.m., free."
-  },
-  {
-    "event": "Timothy Egan ",
-    "category": "Books & Authors",
-    "className": "books",
-    "date": "Oct. 26",
-    "location": "Benaroya Hall",
-    "info": "Seattle Arts & Lectures hosts author of seven books including “The Immortal Irishman: The Irish Revolutionary Who Became an American Hero.”  7:30 p.m., $10-$80."
-  },
-  {
-    "event": "Rabih Alameddine ",
-    "category": "Books & Authors",
-    "className": "books",
-    "date": "Oct. 26",
-    "location": "Elliott Bay Book Co.",
-    "info": "Author discusses “The Angel of History.”  7 p.m., free."
-  },
-  {
-    "event": "T.C. Boyle ",
-    "category": "Books & Authors",
-    "className": "books",
-    "date": "Oct. 27",
-    "location": "Seattle University Pigott Auditorium",
-    "info": "Town Hall Seattle hosts author discussing novel “The Harder They Come.”  7:30 p.m., $5."
-  },
-  {
-    "event": "Nick Offerman ",
-    "category": "Books & Authors",
-    "className": "books",
-    "date": "Oct. 28",
-    "location": "Benaroya Hall",
-    "info": "Seattle Arts & Lectures hosts author of “Good Clean Fun: Misadventures in Sawdust at Offerman Woodship.” 7:30 p.m., $45-$90 includes book; $10/students, book not included."
-  },
-  {
-    "event": "Mark Frost",
-    "category": "Books & Authors",
-    "className": "books",
-    "date": "Oct. 29",
-    "location": "Elliott Bay Book Co.",
-    "info": "Author discusses “The Secret History of Twin Peaks.”  7 p.m., free."
-  },
-  {
-    "event": "Ha Jin ",
-    "category": "Books & Authors",
-    "className": "books",
-    "date": "Nov. 4",
-    "location": "Seattle Central Library",
-    "info": "Author discusses novel  “The Boat Rocker.”  7 p.m., free."
-  },
-  {
-    "event": "Alexander Chee, Kirstin Valdez-Quade, Mattilda Bernstein Sycamore ",
-    "category": "Books & Authors",
-    "className": "books",
-    "date": "Nov. 4",
-    "location": "Fred Wildlife Refuge",
-    "info": "Richard Hugo House Literary Series on the theme “Animals,” with Chee, author of novels “Edinburgh” and “The Queen of The Night”; Valdez-Quade, author of story collection “Night at the Fiestas;” and Seattle writer Sycamore, with music, bar, books for sale. 7:30 p.m., $10-$25."
-  },
-  {
-    "event": "Tim Wu",
-    "category": "Books & Authors",
-    "className": "books",
-    "date": "Nov. 17",
-    "location": "Seattle Central Library",
-    "info": "Author discusses “The Attention Merchants: The Epic Scramble to Get Inside Our Heads.”  7 p.m., free."
-  },
-  {
-    "event": "Seattle7Writers Holiday Bookfest",
-    "category": "Books & Authors",
-    "className": "books",
-    "date": "Nov. 19",
-    "location": "Phinney Neighborhood Center",
-    "info": "Readings and book signings by 27 local authors including Daniel James Brown, Garth Stein, Elizabeth George, Nancy Horan, Kevin O’Brien, Jim Lynch, Lynn Brunnell, Deb Caletti, Boyd Morrison, Megan Chance, Sean Beaudoin, Bridget Foley, Stephanie Kallos, Peter Mountford, Tara Austen Weaver, Thor Hanson, Lyanada Lynn Haupt, Dori Hillestad Butler, Waverly Fitzgerald, William Dietrich, Bharti Kirchner, Clare Meeker, David Laskin, Donna Miscolta, David Lasky, Ed Skoog, David Williams;  boutique bookstore,  treats made by the authors. 3 p.m., free."
+    "price": "free",
+    "info": "Author discusses “Too High, Too Steep: Reshaping Seattle’s Topography.”"
   },
   {
     "event": "Seattle Symphony Opening Night Concert with Ludovic Morlot and Joyce DiDonato ",
     "category": "Classical Music & Opera",
     "className": "classical",
-    "date": "Sept. 17",
+    "start": "9/17/2016",
+    "time": "5 p.m.",
     "location": "Benaroya Hall (S. Mark Taper Forum)",
     "website": "http://www.seattlesymphony.org",
-    "info": "$48-$103, (206) 215-4747"
+    "price": "$48-$103",
+    "phone": "(206) 215-4747"
+  },
+  {
+    "event": "Ann Patchett ",
+    "category": "Books & Authors",
+    "className": "books",
+    "start": "9/19/2016",
+    "time": "7:30 p.m.",
+    "location": "Benaroya Hall",
+    "price": "$10-$80",
+    "info": "Seattle Arts & Lectures hosts author of “Commonwealth.”"
+  },
+  {
+    "event": "Mary Beard ",
+    "category": "Books & Authors",
+    "className": "books",
+    "start": "9/19/2016",
+    "time": "7:30 p.m.",
+    "location": "Town Hall Seattle",
+    "price": "$5",
+    "info": "Author discusses “SPQR: A History of Ancient Rome.”"
+  },
+  {
+    "event": "Amy Stewart ",
+    "category": "Books & Authors",
+    "className": "books",
+    "start": "9/20/2016",
+    "time": "12 p.m.",
+    "location": "Seattle Mystery Bookshop",
+    "price": "free",
+    "info": "Author signs “Lady Cop Makes Trouble.”"
+  },
+  {
+    "event": "Amy Stewart ",
+    "category": "Books & Authors",
+    "className": "books",
+    "start": "9/20/2016",
+    "time": "7 p.m.",
+    "location": "Third Place Books Lake Forest Park",
+    "price": "free",
+    "info": "Author discusses novel  “Lady Cop Makes Trouble.”"
+  },
+  {
+    "event": "Sigur Rós",
+    "category": "Pop & Rock & Jazz",
+    "className": "pop",
+    "start": "9/20/2016",
+    "time": "8:30 p.m.",
+    "location": "Paramount Theatre",
+    "website": "stgpresents.org",
+    "price": "$75.75",
+    "phone": "(877) 784-4849"
+  },
+  {
+    "event": "Jacqueline Woodson ",
+    "category": "Books & Authors",
+    "className": "books",
+    "start": "9/21/2016",
+    "time": "7 p.m.",
+    "location": "Elliott Bay Book Co.,",
+    "price": "free",
+    "info": "Author discusses “Another Brooklyn.”"
+  },
+  {
+    "event": "Amor Towles ",
+    "category": "Books & Authors",
+    "className": "books",
+    "start": "9/21/2016",
+    "time": "7 p.m.",
+    "location": "Folio: The Seattle Athenaeum",
+    "price": "$5",
+    "info": "Author discusses “A Gentleman in Moscow.”"
+  },
+  {
+    "event": "Dolly Parton",
+    "category": "Pop & Rock & Jazz",
+    "className": "pop",
+    "start": "9/21/2016",
+    "time": "7:30 p.m.",
+    "location": "ShoWare Center, Kent",
+    "website": "showarecenter.com",
+    "price": "$39.50"
+  },
+  {
+    "event": "Ian Brown ",
+    "category": "Books & Authors",
+    "className": "books",
+    "start": "9/22/2016",
+    "time": "7:30 p.m.",
+    "location": "Town Hall Seattle",
+    "price": "$5",
+    "info": "Author discusses “Sixty: A Diary of My Sixty-First Year.”"
+  },
+  {
+    "event": "Pacific Northwest Ballet “Tricolore”",
+    "category": "Dance",
+    "className": "dance",
+    "start": "9/23/2016",
+    "end": "10/2/2016",
+    "location": "McCaw Hall",
+    "website": "pnb.org",
+    "price": "$25-$187",
+    "phone": "(206) 441-2424"
+  },
+  {
+    "event": "St. Paul and the Broken Bones",
+    "category": "Pop & Rock & Jazz",
+    "className": "pop",
+    "start": "9/24/2016",
+    "time": "8 p.m.",
+    "location": "Paramount Theatre",
+    "website": "stgpresents.org",
+    "price": "$26.25",
+    "phone": "(877) 784-4849"
+  },
+  {
+    "event": "Tim Murphy ",
+    "category": "Books & Authors",
+    "className": "books",
+    "start": "9/25/2016",
+    "time": "7 p.m.",
+    "location": "Third Place Books Seward Park",
+    "price": "free",
+    "info": "Hugo House hosts author of novel “Christodora,” in conversation with David Schmader."
+  },
+  {
+    "event": "Jonathan Safran Foer ",
+    "category": "Books & Authors",
+    "className": "books",
+    "start": "9/26/2016",
+    "time": "7:30 p.m.",
+    "location": "Town Hall Seattle",
+    "price": "$34.89 for one or two people includes book.",
+    "info": "Author discusses “Here I Am.”"
+  },
+  {
+    "event": "Lynne Cox",
+    "category": "Books & Authors",
+    "className": "books",
+    "start": "9/26/2016",
+    "time": "7 p.m.",
+    "location": "Elliott Bay Book Co.",
+    "price": "free",
+    "info": "Author discusses “Swimming in the Sink: An Episode of the Heart.\""
+  },
+  {
+    "event": "Stacy Schiff ",
+    "category": "Books & Authors",
+    "className": "books",
+    "start": "9/27/2016",
+    "time": "7 p.m.",
+    "location": "Seattle Central Library",
+    "price": "free",
+    "info": "Author discusses “The Witches: Salem, 1692.”"
+  },
+  {
+    "event": "Alexander Maksik ",
+    "category": "Books & Authors",
+    "className": "books",
+    "start": "9/27/2016",
+    "time": "7 p.m.",
+    "location": "Third Place Books Ravenna",
+    "price": "free",
+    "info": "Author discusses “Shelter in Place.”"
+  },
+  {
+    "event": "Paula Becker ",
+    "category": "Books & Authors",
+    "className": "books",
+    "start": "9/28/2016",
+    "time": "7 p.m.",
+    "location": "University Book Store",
+    "price": "free",
+    "info": "Author discusses “Looking for Betty MacDonald: The Egg, The Plague, Mrs. Piggle-Wiggle and I.”"
   },
   {
     "event": "Seattle Symphony: Elgar Cello Concerto with Xavier Phillips ",
     "category": "Classical Music & Opera",
     "className": "classical",
-    "date": "Sept. 29 - Oct. 1",
+    "start": "9/29/2016",
+    "end": "10/1/2016",
     "location": "Benaroya Hall (S. Mark Taper Forum)",
     "website": "http://www.seattlesymphony.org",
-    "info": "$22-$122, (206) 215-4747  "
+    "price": "$22-$122",
+    "phone": "(206) 215-4747  "
+  },
+  {
+    "event": "Sia, Miguel, AlunaGeorge",
+    "category": "Pop & Rock & Jazz",
+    "className": "pop",
+    "start": "9/29/2016",
+    "time": "7 p.m.",
+    "location": "KeyArena",
+    "website": "ticketmaster.com",
+    "price": "$31-$121",
+    "phone": "(800) 745-3000"
+  },
+  {
+    "event": "Tyehimba Jess, Anselm Berrigan, Don Mee Choi, Joshua Beckman ",
+    "category": "Books & Authors",
+    "className": "books",
+    "start": "9/30/2016",
+    "time": "8 p.m.",
+    "location": "Fred Wildlife Refuge",
+    "price": "free",
+    "info": "Richard Hugo House hosts readings by Pacific Northwest poets."
+  },
+  {
+    "event": "David Quammen",
+    "category": "Books & Authors",
+    "className": "books",
+    "start": "9/30/2016",
+    "time": "7:30 p.m.",
+    "location": "Town Hall Seattle",
+    "price": "$5",
+    "info": "Author discusses “Yellowstone: A Journey Through America’s Wild Heart.”"
+  },
+  {
+    "event": "Macefield Music Festival",
+    "category": "Pop & Rock & Jazz",
+    "className": "pop",
+    "start": "9/30/2016",
+    "end": "10/2/2016",
+    "location": "Ballard",
+    "website": "macefieldmusicfestival.com",
+    "price": "$45"
+  },
+  {
+    "event": "BAM Sound & Vision: Grace Love",
+    "category": "Visual Art",
+    "className": "art",
+    "start": "9/30/2016",
+    "time": "6 p.m.",
+    "location": "Bellevue Arts Museum",
+    "website": "bellevuearts.org",
+    "price": "$12-$15",
+    "phone": "(425) 519-0770"
+  },
+  {
+    "event": "Ngugi wa Thiong'o",
+    "category": "Books & Authors",
+    "className": "books",
+    "start": "10/1/2016",
+    "time": "7 p.m.",
+    "location": "Elliott Bay Book Co.",
+    "price": "free",
+    "info": "Author discusses “Birth of a Dream Weaver.”"
+  },
+  {
+    "event": "Whitney Terrell ",
+    "category": "Books & Authors",
+    "className": "books",
+    "start": "10/3/2016",
+    "time": "7 p.m.",
+    "location": "Elliott Bay Book Co.",
+    "price": "free",
+    "info": "Author discusses “The Good Lieutenant.”"
+  },
+  {
+    "event": "Pete Fromm",
+    "category": "Books & Authors",
+    "className": "books",
+    "start": "10/3/2016",
+    "time": "7 p.m.",
+    "location": "Third Place Books Ravenna",
+    "price": "free",
+    "info": "Author discusses “The Names of the Stars: A Life in the Wilds.”"
+  },
+  {
+    "event": "Patti Smith",
+    "category": "Books & Authors",
+    "className": "books",
+    "start": "10/3/2016",
+    "time": "7 p.m.",
+    "location": "Elliott Bay Book Co.",
+    "price": "$17.54",
+    "info": "Author discusses “M Train.”"
+  },
+  {
+    "event": "Tracy Kidder",
+    "category": "Books & Authors",
+    "className": "books",
+    "start": "10/3/2016",
+    "time": "7:30 p.m.",
+    "location": "Town Hall Seattle",
+    "price": "$32 includes book.",
+    "info": "Elliot Bay Book Co. hosts author of “Truck Full of Money.”"
+  },
+  {
+    "event": "Pete Fromm",
+    "category": "Books & Authors",
+    "className": "books",
+    "start": "10/4/2016",
+    "time": "7 p.m.",
+    "location": "Elliott Bay Book Co.",
+    "price": "free",
+    "info": "Author discusses “The Names of the Stars: A Life in the Wilds.”"
+  },
+  {
+    "event": "Tegan and Sara",
+    "category": "Pop & Rock & Jazz",
+    "className": "pop",
+    "start": "10/4/2016",
+    "time": "7:30 p.m.",
+    "location": "Moore Theatre",
+    "website": "stgpresents.org",
+    "price": "$32.50-$34.50",
+    "phone": "(877) 784-4849"
+  },
+  {
+    "event": "Chick Corea Trio featuring Eddie Gomez and Brian Blade",
+    "category": "Pop & Rock & Jazz",
+    "className": "pop",
+    "start": "10/4/2016",
+    "end": "10/5/2016",
+    "location": "Dimitriou's Jazz Alley, Seattle",
+    "website": "jazzalley.com",
+    "price": "$50.50"
+  },
+  {
+    "event": "Paula Becker ",
+    "category": "Books & Authors",
+    "className": "books",
+    "start": "10/5/2016",
+    "time": "7 p.m.",
+    "location": "Third Place Books Ravenna ",
+    "price": "free",
+    "info": "Author discusses “Looking for Betty MacDonald: The Egg, The Plague, Mrs. Piggle-Wiggle and I.”"
+  },
+  {
+    "event": "James Gleick ",
+    "category": "Books & Authors",
+    "className": "books",
+    "start": "10/6/2016",
+    "time": "7 p.m.",
+    "location": "Seattle Central Library",
+    "price": "free",
+    "info": "Author discusses “Time Travel,” exploring time travel’s evolution in literature and science."
+  },
+  {
+    "event": "Mark Morris Dance Group with The Silk Road Ensemble",
+    "category": "Dance",
+    "className": "dance",
+    "start": "10/6/2016",
+    "end": "10/8/2016",
+    "location": "Meany Center for the Performing Arts",
+    "website": "http://meanycenter.org",
+    "price": "$60-$65",
+    "phone": "(206) 543-4882"
+  },
+  {
+    "event": "Catherine Russell",
+    "category": "Pop & Rock & Jazz",
+    "className": "pop",
+    "start": "10/6/2016",
+    "end": "10/9/2016",
+    "location": "Dimitriou's Jazz Alley, Seattle",
+    "website": "jazzalley.com",
+    "price": "$31.50"
+  },
+  {
+    "event": "“Man of La Mancha”",
+    "category": "Theater",
+    "className": "theater",
+    "start": "10/7/2016",
+    "end": "10/30/2016",
+    "location": "The 5th Avenue Theatre,  Seattle",
+    "website": "5thavenue.org",
+    "price": "$29-$136",
+    "phone": "(206) 625-1900"
+  },
+  {
+    "event": "Atlas Obscura Book Launch in the Hidden Tunnels of the Seattle Underground ",
+    "category": "Books & Authors",
+    "className": "books",
+    "start": "10/8/2016",
+    "time": "9 p.m.",
+    "location": "Seattle Underground",
+    "price": "$90",
+    "info": "Celebrate “Atlas Obscura: An Explorer’s Guide to the World’s Hidden Wonders,” with presentation of the book’s locations, live music, cocktails."
+  },
+  {
+    "event": "Washington State Book Awards Celebration ",
+    "category": "Books & Authors",
+    "className": "books",
+    "start": "10/8/2016",
+    "time": "7 p.m.",
+    "location": "Seattle Central Library",
+    "price": "free",
+    "info": "Awards announced in poetry, fiction, nonfiction and biography/memoir for adults; picture books, early readers, middle readers and teen literature; reception."
   },
   {
     "event": "Early Music Guild: Chanticleer: The Washing of the Water ",
     "category": "Classical Music & Opera",
     "className": "classical",
-    "date": "Oct. 8 - 9",
+    "start": "10/8/2016",
+    "end": "10/9/2016",
     "location": "Benaroya Hall (Illsley Ball Nordstrom Recital Hall)",
     "website": "http://www.earlymusicguild.org",
-    "info": "$26-$46"
+    "price": "$26-$46",
+    "phone": "(206) 325-7066"
   },
   {
-    "event": "Jonathan Biss",
-    "category": "Classical Music & Opera",
-    "className": "classical",
-    "date": "Oct. 10",
-    "location": "Meany Center for the Performing Arts",
-    "website": "http://meanycenter.org/events-tickets/calendar/jonathan-biss-0",
-    "info": "$40-$45, (206) 543-4880 "
+    "event": "Rick Riordan ",
+    "category": "Books & Authors",
+    "className": "books",
+    "start": "10/9/2016",
+    "time": "4 p.m.",
+    "location": "Elliott Bay Book Co.",
+    "price": "$25 includes book.",
+    "info": "Author discusses “Magnus Chase and the Gods of Asgard, Book Two: The Hammer of Thor.”"
+  },
+  {
+    "event": "Charles Burns ",
+    "category": "Books & Authors",
+    "className": "books",
+    "start": "10/10/2016",
+    "time": "7:30 p.m.",
+    "location": "Town Hall Seattle",
+    "price": "$5",
+    "info": "Author discusses graphic novel “Last Look.”"
+  },
+  {
+    "event": "Mark Bittman ",
+    "category": "Books & Authors",
+    "className": "books",
+    "start": "10/11/2016",
+    "time": "7:30 p.m.",
+    "location": "Town Hall Seattle",
+    "price": "$5",
+    "info": "Author discusses “How to Bake Everything.”"
+  },
+  {
+    "event": "Kim Stafford ",
+    "category": "Books & Authors",
+    "className": "books",
+    "start": "10/12/2016",
+    "time": "7 p.m.",
+    "location": "Seattle Central Library",
+    "price": "free",
+    "info": "Author discusses the 30th anniversary edition of “Having Everything Right,” essays on the history, folklore and beauty of the Pacific Northwest."
+  },
+  {
+    "event": "Thor Hanson",
+    "category": "Books & Authors",
+    "className": "books",
+    "start": "10/12/2016",
+    "time": "7 p.m.",
+    "location": "Third Place Books Lake Forest Park",
+    "price": "free",
+    "info": "Author discusses children’s book “Bartholomew Quill: A Crow’s Quest to Know Who’s Who.”"
+  },
+  {
+    "event": "Alexander Weinstein ",
+    "category": "Books & Authors",
+    "className": "books",
+    "start": "10/13/2016",
+    "time": "7 p.m.",
+    "location": "Elliott Bay Book Co.",
+    "price": "free",
+    "info": "Author discusses “Children of the New World.”"
+  },
+  {
+    "event": "Jazz at Lincoln Center Orchestra with Wynton Marsalis",
+    "category": "Pop & Rock & Jazz",
+    "className": "pop",
+    "start": "10/13/2016",
+    "time": "7:30 p.m.",
+    "location": "Paramount Theatre",
+    "website": "stgpresents.org",
+    "price": "$50-$138",
+    "phone": "(877) 784-4849"
+  },
+  {
+    "event": "Alexander McCall Smith",
+    "category": "Books & Authors",
+    "className": "books",
+    "start": "10/14/2016",
+    "time": "7:30 p.m.",
+    "location": "Town Hall Seattle",
+    "price": "$5",
+    "info": "Author discusses “Precious and Grace.”"
+  },
+  {
+    "event": "Tea Obreht, Eduardo C. Corral, Quenton Baker ",
+    "category": "Books & Authors",
+    "className": "books",
+    "start": "10/14/2016",
+    "time": "7:30 p.m.",
+    "location": "Fred Wildlife Refuge",
+    "price": "$10-$25",
+    "info": "Richard Hugo House Literary Series hosts Obreht, author of novel “The Tiger’s Wife” and poets Corral and Baker, with music by Shaprece; bar open, books available for sale."
+  },
+  {
+    "event": "Alexander McCall Smith",
+    "category": "Books & Authors",
+    "className": "books",
+    "start": "10/15/2016",
+    "time": "2:30 p.m.",
+    "location": "Bainbridge High School",
+    "price": "free",
+    "info": "Author discusses novel “Precious and Grace.” Priority signing line with purchase of book at Eagle Harbor Book Co. or Liberty Bay Books prior to the event."
   },
   {
     "event": "Seattle Opera: “Hansel & Gretel”",
     "category": "Classical Music & Opera",
     "className": "classical",
-    "date": "Oct. 15 - 30",
+    "start": "10/15/2016",
+    "end": "10/30/2016",
     "location": "McCaw Hall",
     "website": "http://seattleopera.org",
-    "info": "$25-$292  "
+    "price": "$25-$292  ",
+    "phone": "(206) 389-7676"
+  },
+  {
+    "event": "Bryan Cranston ",
+    "category": "Books & Authors",
+    "className": "books",
+    "start": "10/16/2016",
+    "time": "7:30 p.m.",
+    "location": "Benaroya Hall",
+    "price": "$45-$105 includes signed book; $10/students, no book.",
+    "info": "Seattle Arts & Lectures hosts author to discuss “A Life in Parts,” hosted by Sherman Alexie."
+  },
+  {
+    "event": "Peter Wohlleben ",
+    "category": "Books & Authors",
+    "className": "books",
+    "start": "10/16/2016",
+    "time": "3 p.m.",
+    "location": "Elliott Bay Book Co.",
+    "price": "free",
+    "info": "Author discusses “The Hidden Life of Trees.”"
+  },
+  {
+    "event": "Geraldine Brooks ",
+    "category": "Books & Authors",
+    "className": "books",
+    "start": "10/17/2016",
+    "time": "7:30 p.m.",
+    "location": "Town Hall Seattle",
+    "price": "$5",
+    "info": "Author discusses novel “The Secret Chord.”"
+  },
+  {
+    "event": "Maria Bamford",
+    "category": "Comedy",
+    "className": "comedy",
+    "start": "10/17/2016",
+    "time": "8 p.m.",
+    "location": "Moore Theatre",
+    "website": "stgpresents.org",
+    "price": "$27.25",
+    "phone": "(877) 784-4849"
+  },
+  {
+    "event": "Nisi Shawl ",
+    "category": "Books & Authors",
+    "className": "books",
+    "start": "10/19/2016",
+    "time": "7 p.m.",
+    "location": "Third Place Books Seward Park",
+    "price": "free",
+    "info": "Author discusses “Everfair,” in conversation with Ted Chiang."
+  },
+  {
+    "event": "Kathleen Alcala",
+    "category": "Books & Authors",
+    "className": "books",
+    "start": "10/19/2016",
+    "time": "7 p.m.",
+    "location": "University Book Store",
+    "price": "free",
+    "info": "Author discusses “The Deepest Roots.”"
+  },
+  {
+    "event": "Norah Jones",
+    "category": "Pop & Rock & Jazz",
+    "className": "pop",
+    "start": "10/19/2016",
+    "time": "8 p.m.",
+    "location": "Benaroya Hall (S. Mark Taper Forum)",
+    "website": "seattlesymphony.org",
+    "price": "sold out",
+    "phone": "(206) 215-4747  "
+  },
+  {
+    "event": "Kanye West",
+    "category": "Pop & Rock & Jazz",
+    "className": "pop",
+    "start": "10/19/2016",
+    "time": "8 p.m.",
+    "location": "KeyArena",
+    "website": "ticketmaster.com",
+    "price": "$25-$134",
+    "phone": "(800) 745-3000"
+  },
+  {
+    "event": "H.W. Brands ",
+    "category": "Books & Authors",
+    "className": "books",
+    "start": "10/20/2016",
+    "time": "7:30 p.m.",
+    "location": "Town Hall Seattle",
+    "price": "$5",
+    "info": "Author discusses “The General vs. the President.”"
+  },
+  {
+    "event": "ScHoolboy Q, Joey Bada$$",
+    "category": "Pop & Rock & Jazz",
+    "className": "pop",
+    "start": "10/21/2016",
+    "time": "8 p.m.",
+    "location": "WaMu Theater, Seattle",
+    "website": "ticketmaster.com",
+    "price": "$35",
+    "phone": "(800) 745-3000"
+  },
+  {
+    "event": "Emma Donoghue",
+    "category": "Books & Authors",
+    "className": "books",
+    "start": "10/22/2016",
+    "time": "7 p.m.",
+    "location": "Elliott Bay Book Co.",
+    "price": "free",
+    "info": "Author discusses “The Wonder.”"
+  },
+  {
+    "event": "Mario Batali ",
+    "category": "Books & Authors",
+    "className": "books",
+    "start": "10/23/2016",
+    "time": "4 p.m.",
+    "location": "University Temple United Methodist Church",
+    "website": "http://www.brownpapertickets.com/event/2566870",
+    "price": "$42.39 for one or two people, includes book.",
+    "info": "Author discusses “Big American Cookbook,” in conversation with Tom Douglas."
+  },
+  {
+    "event": "Jess Walter, Tim Egan and Sherman Alexie",
+    "category": "Books & Authors",
+    "className": "books",
+    "start": "10/24/2016",
+    "time": "7:30 p.m.",
+    "location": "Town Hall Seattle",
+    "price": "$5",
+    "info": "Northwest National Book Award winners and finalists discuss life, writing and basketball on the eve of the opening of the NBA basketball season."
+  },
+  {
+    "event": "Chance the Rapper",
+    "category": "Pop & Rock & Jazz",
+    "className": "pop",
+    "start": "10/24/2016",
+    "time": "8 p.m.",
+    "location": "WaMu Theater, Seattle",
+    "website": "ticketmaster.com",
+    "price": "$42",
+    "phone": "(800) 745-3000"
+  },
+  {
+    "event": "Arlie Russell Hochschild ",
+    "category": "Books & Authors",
+    "className": "books",
+    "start": "10/25/2016",
+    "time": "7 p.m.",
+    "location": "Seattle Central Library",
+    "price": "free",
+    "info": "Author discusses “Strangers in Their Own Land: Anger and Mourning on the American Right.”"
+  },
+  {
+    "event": "Michael Bisio & Kirk Knuffke Duo, Paul Rucker & Hans Teuber",
+    "category": "Pop & Rock & Jazz",
+    "className": "pop",
+    "start": "10/25/2016",
+    "time": "8 p.m.",
+    "location": "Seattle Art Museum",
+    "website": "earshot.org",
+    "price": "$10-$18"
+  },
+  {
+    "event": "Timothy Egan ",
+    "category": "Books & Authors",
+    "className": "books",
+    "start": "10/26/2016",
+    "time": "7:30 p.m.",
+    "location": "Benaroya Hall",
+    "price": "$10-$80",
+    "info": "Seattle Arts & Lectures hosts author of seven books including “The Immortal Irishman: The Irish Revolutionary Who Became an American Hero.”"
+  },
+  {
+    "event": "Rabih Alameddine ",
+    "category": "Books & Authors",
+    "className": "books",
+    "start": "10/26/2016",
+    "time": "7 p.m.",
+    "location": "Elliott Bay Book Co.",
+    "price": "free",
+    "info": "Author discusses “The Angel of History.”"
+  },
+  {
+    "event": "John Cleese & Eric Idle ",
+    "category": "Comedy",
+    "className": "comedy",
+    "start": "10/26/2016",
+    "end": "10/27/2016",
+    "time": "7:30 p.m.",
+    "location": "Moore Theatre",
+    "website": "stgpresents.org",
+    "price": "$59.50-$99.50",
+    "phone": "(877) 784-4849"
+  },
+  {
+    "event": "T.C. Boyle ",
+    "category": "Books & Authors",
+    "className": "books",
+    "start": "10/27/2016",
+    "time": "7:30 p.m.",
+    "location": "Seattle University Pigott Auditorium",
+    "price": "$5",
+    "info": "Town Hall Seattle hosts author discussing novel “The Harder They Come.”"
   },
   {
     "event": "Seattle Symphony: Morlot Conducts Beethoven with Inon Barnatan ",
     "category": "Classical Music & Opera",
     "className": "classical",
-    "date": "Oct. 27 - 29",
+    "start": "10/27/2016",
+    "end": "10/29/2016",
     "location": "Benaroya Hall (S. Mark Taper Forum)",
     "website": "http://www.seattlesymphony.org",
-    "info": "$22-$122, (206) 215-4747  "
+    "price": "$22-$122",
+    "phone": "(206) 215-4747  "
+  },
+  {
+    "event": "Nick Offerman ",
+    "category": "Books & Authors",
+    "className": "books",
+    "start": "10/28/2016",
+    "time": "7:30 p.m.",
+    "location": "Benaroya Hall",
+    "price": "$45-$90 includes book; $10/students, book not included.",
+    "info": "Seattle Arts & Lectures hosts author of “Good Clean Fun: Misadventures in Sawdust at Offerman Woodship.”"
+  },
+  {
+    "event": "BAM Sound & Vision: The Cumbieros",
+    "category": "Visual Art",
+    "className": "art",
+    "start": "10/28/2016",
+    "time": "6 p.m.",
+    "location": "Bellevue Arts Museum",
+    "website": "bellevuearts.org",
+    "price": "$12-$15",
+    "phone": "(425) 519-0770"
+  },
+  {
+    "event": "Mark Frost",
+    "category": "Books & Authors",
+    "className": "books",
+    "start": "10/29/2016",
+    "time": "7 p.m.",
+    "location": "Elliott Bay Book Co.",
+    "price": "free",
+    "info": "Author discusses “The Secret History of Twin Peaks.”"
+  },
+  {
+    "event": "Dave Douglas, the Westerlies",
+    "category": "Pop & Rock & Jazz",
+    "className": "pop",
+    "start": "10/29/2016",
+    "time": "8 p.m.",
+    "location": "Seattle Art Museum",
+    "website": "earshot.org",
+    "price": "$10-$24"
   },
   {
     "event": "Hilary Hahn in Recital ",
     "category": "Classical Music & Opera",
     "className": "classical",
-    "date": "Oct. 30",
+    "start": "10/30/2016",
+    "time": "2 p.m.",
     "location": "Benaroya Hall (S. Mark Taper Forum)",
     "website": "http://www.seattlesymphony.org",
-    "info": "$61-$138, (206) 215-4747  "
+    "price": "$61-$138",
+    "phone": "(206) 215-4747  "
+  },
+  {
+    "event": "Mariza",
+    "category": "Pop & Rock & Jazz",
+    "className": "pop",
+    "start": "11/1/2016",
+    "time": "8 p.m.",
+    "location": "Meany Center for the Performing Arts",
+    "website": "http://meanycenter.org",
+    "price": "$53-$58",
+    "phone": "(206) 543-4880 "
   },
   {
     "event": "Morlot Conducts Tchaikovsky ",
     "category": "Classical Music & Opera",
     "className": "classical",
-    "date": "Nov. 3 - 6",
+    "start": "11/3/2016",
+    "end": "11/6/2016",
     "location": "Benaroya Hall (S. Mark Taper Forum)",
     "website": "http://www.seattlesymphony.org",
-    "info": "$22-$122, (206) 215-4747  "
+    "price": "$22-$122",
+    "phone": "(206) 215-4747  "
+  },
+  {
+    "event": "Ha Jin ",
+    "category": "Books & Authors",
+    "className": "books",
+    "start": "11/4/2016",
+    "time": "7 p.m.",
+    "location": "Seattle Central Library",
+    "price": "free",
+    "info": "Author discusses novel  “The Boat Rocker.”"
+  },
+  {
+    "event": "Alexander Chee, Kirstin Valdez-Quade, Mattilda Bernstein Sycamore ",
+    "category": "Books & Authors",
+    "className": "books",
+    "start": "11/4/2016",
+    "time": "7:30 p.m.",
+    "location": "Fred Wildlife Refuge",
+    "price": "$10-$25",
+    "info": "Richard Hugo House Literary Series on the theme “Animals,” with Chee, author of novels “Edinburgh” and “The Queen of The Night”; Valdez-Quade, author of story collection “Night at the Fiestas;” and Seattle writer Sycamore, with music, bar, books for sale."
   },
   {
     "event": "Gustavo Dudamel & The LA Phil ",
     "category": "Classical Music & Opera",
     "className": "classical",
-    "date": "Nov. 4",
+    "start": "11/4/2016",
+    "time": "8 p.m.",
     "location": "Benaroya Hall (S. Mark Taper Forum)",
     "website": "http://www.seattlesymphony.org",
-    "info": "$82-$165, (206) 215-4747  "
+    "price": "$82-$165",
+    "phone": "(206) 215-4747  "
+  },
+  {
+    "event": "Jerry Seinfeld ",
+    "category": "Comedy",
+    "className": "comedy",
+    "start": "11/4/2016",
+    "time": "7 p.m. & 9:30 p.m.",
+    "location": "Paramount Theatre",
+    "website": "stgpresents.org",
+    "price": "$46.25-$146.25",
+    "phone": "(877) 784-4849"
+  },
+  {
+    "event": "Pacific Northwest Ballet “Brief Fling”",
+    "category": "Dance",
+    "className": "dance",
+    "start": "11/4/2016",
+    "end": "11/13/2016",
+    "location": "McCaw Hall",
+    "website": "pnb.org",
+    "price": "$25-$187",
+    "phone": "(206) 441-2424"
+  },
+  {
+    "event": "The Head & the Heart, Declan McKenna ",
+    "category": "Pop & Rock & Jazz",
+    "className": "pop",
+    "start": "11/5/2016",
+    "end": "11/7/2016",
+    "location": "Paramount Theatre",
+    "website": "stgpresents.org",
+    "price": "$40.50",
+    "phone": "(877) 784-4849"
+  },
+  {
+    "event": "Bill Frisell “When You Wish Upon a Star” with Petra Haden, Thomas Morgan &amp; Matt Chamberlain",
+    "category": "Pop & Rock & Jazz",
+    "className": "pop",
+    "start": "11/5/2016",
+    "time": "8 p.m.",
+    "location": "Moore Theatre",
+    "website": "earshot.org",
+    "price": "$28-$39",
+    "phone": "(877) 784-4849"
+  },
+  {
+    "event": "Neko Case",
+    "category": "Pop & Rock & Jazz",
+    "className": "pop",
+    "start": "11/9/2016",
+    "time": "8 p.m.",
+    "location": "Pantages Theater, Tacoma",
+    "website": "stgpresents.org",
+    "price": "$37.50",
+    "phone": "(877) 784-4849"
+  },
+  {
+    "event": "“King Charles III”",
+    "category": "Theater",
+    "className": "theater",
+    "start": "11/11/2016",
+    "end": "12/24/2016",
+    "location": "Seattle Repertory Theatre, Bagley Wright Theatre, Seattle",
+    "website": "seattlerep.org",
+    "price": "$17-$100 ",
+    "phone": "(206) 443-2222"
+  },
+  {
+    "event": "The Beach Boys",
+    "category": "Pop & Rock & Jazz",
+    "className": "pop",
+    "start": "11/12/2016",
+    "time": "7:30 p.m.",
+    "location": "Paramount Theatre",
+    "website": "stgpresents.org",
+    "price": "$51.25-$121.25",
+    "phone": "(877) 784-4849"
+  },
+  {
+    "event": "The Posies",
+    "category": "Pop & Rock & Jazz",
+    "className": "pop",
+    "start": "11/16/2016",
+    "time": "8 p.m.",
+    "location": "Neptune Theatre",
+    "website": "stgpresents.org",
+    "price": "$18.50-$23.50",
+    "phone": "(877) 784-4849"
+  },
+  {
+    "event": "Tim Wu",
+    "category": "Books & Authors",
+    "className": "books",
+    "start": "11/17/2016",
+    "time": "7 p.m.",
+    "location": "Seattle Central Library",
+    "price": "free",
+    "info": "Author discusses “The Attention Merchants: The Epic Scramble to Get Inside Our Heads.”"
+  },
+  {
+    "event": "Norm Macdonald",
+    "category": "Comedy",
+    "className": "comedy",
+    "start": "11/17/2016",
+    "time": "7:30 p.m.",
+    "location": "Snoqualmie Casino",
+    "website": "snocasino.com",
+    "price": "$30-$45",
+    "phone": "(425) 888-1234"
+  },
+  {
+    "event": "SAM Remix",
+    "category": "Visual Art",
+    "className": "art",
+    "start": "11/18/2016",
+    "time": "8 p.m.",
+    "location": "Seattle Art Museum",
+    "website": "seattleartmuseum.org",
+    "price": "$12-$25",
+    "phone": "(206) 654-3100"
+  },
+  {
+    "event": "Seattle7Writers Holiday Bookfest",
+    "category": "Books & Authors",
+    "className": "books",
+    "start": "11/19/2016",
+    "time": "3 p.m.",
+    "location": "Phinney Neighborhood Center",
+    "price": "free",
+    "info": "Readings and book signings by 27 local authors including Daniel James Brown, Garth Stein, Elizabeth George, Nancy Horan, Kevin O’Brien, Jim Lynch, Lynn Brunnell, Deb Caletti, Boyd Morrison, Megan Chance, Sean Beaudoin, Bridget Foley, Stephanie Kallos, Peter Mountford, Tara Austen Weaver, Thor Hanson, Lyanada Lynn Haupt, Dori Hillestad Butler, Waverly Fitzgerald, William Dietrich, Bharti Kirchner, Clare Meeker, David Laskin, Donna Miscolta, David Lasky, Ed Skoog, David Williams;  boutique bookstore,  treats made by the authors."
+  },
+  {
+    "event": "Temple of the Dog",
+    "category": "Pop & Rock & Jazz",
+    "className": "pop",
+    "start": "11/20/2016",
+    "end": "11/21/2016",
+    "time": "8 p.m.",
+    "location": "Paramount Theatre",
+    "website": "stgpresents.org",
+    "price": "$94.25",
+    "phone": "(877) 784-4849"
+  },
+  {
+    "event": "Raffi",
+    "category": "Pop & Rock & Jazz",
+    "className": "pop",
+    "start": "11/20/2016",
+    "time": "1 p.m.",
+    "location": "Moore Theatre",
+    "website": "stgpresents.org",
+    "price": "$30",
+    "phone": "(877) 784-4849"
+  },
+  {
+    "event": "MØ",
+    "category": "Pop & Rock & Jazz",
+    "className": "pop",
+    "start": "11/22/2016",
+    "time": "7 p.m.",
+    "location": "Neptune Theatre",
+    "website": "stgpresents.org",
+    "price": "$20-$21.50",
+    "phone": "(877) 784-4849"
+  },
+  {
+    "event": "Jonathan Biss",
+    "category": "Classical Music & Opera",
+    "className": "classical",
+    "start": "12/10/2016",
+    "time": "7:30 p.m.",
+    "location": "Meany Center for the Performing Arts",
+    "website": "http://meanycenter.org/events-tickets/calendar/jonathan-biss-0",
+    "price": "$40-$45",
+    "phone": "(206) 543-4880 "
   }
 ]
