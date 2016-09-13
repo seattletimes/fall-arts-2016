@@ -16,7 +16,7 @@ header.top {
 
 main.table-container {
   max-width: 960px;
-  padding: 0 16px;
+  padding: 0 16px 40px;
   margin: auto;
 }
 
@@ -127,7 +127,7 @@ main.table-container {
       border-bottom: 1px solid @df-light-gray;
     }
     vertical-align: top;
-    padding: 0 16px 4px 0;
+    padding: 8px 16px 8px 0;
   }
 
   .hidden {
@@ -137,15 +137,20 @@ main.table-container {
   @media @not-mobile {
 
     .category {
-      width: 75px;
+      width: 100px;
+      padding: 16px;
     }
 
     .date {
       min-width: 75px;
     }
 
+    .location {
+      min-width: 200px;
+    }
+
     .description {
-      max-width: 50%;
+      max-width: 33%;
     }
   }
 
@@ -188,4 +193,12 @@ main.table-container {
     color: @st-dark-red;
   }
 
+}
+
+.credits {
+  text-align: right;
+  color: @df-middle-gray;
+  font-family: @df-sans;
+  font-style: italic;
+  padding: 20px 0;
 }

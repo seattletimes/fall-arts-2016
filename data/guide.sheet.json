@@ -131,6 +131,7 @@
     "location": "Benaroya Hall",
     "website": "http://www.seattlesymphony.org/BenaroyaHall",
     "price": "$10-$80",
+    "pick": "x",
     "info": "When it comes to the human condition, the “Bel Canto” author is one of the most insightful American novelists working today. Seattle Arts & Lectures hosts her discussion of “Commonwealth.”"
   },
   {
@@ -428,6 +429,7 @@
     "location": "Town Hall Seattle",
     "website": "https://townhallseattle.org/",
     "price": "$32 includes book.",
+    "pick": "x",
     "info": "The nonfiction master’s latest, “A Truck Full of Money,” is both a biography of Paul English, founder and head of the successful online travel search site Kayak, and an examination of the culture of the software industry and how it has changed us, for better or worse."
   },
   {
@@ -672,6 +674,7 @@
     "location": "McCaw Hall",
     "website": "http://seattleopera.org",
     "price": "$25-$292  ",
+    "pick": "x",
     "info": "Seattle Opera general director Aidan Lang said  this production of Engelbert Humperdinck’s work should resonate with Seattle audiences — it’s a fairy-tale-turned-commentary on consumer excess. Bye, candy cottage; hello, grocery store, and forest littered with plastic bags."
   },
   {
@@ -716,6 +719,7 @@
     "location": "Moore Theatre",
     "website": "http://www.stgpresents.org/",
     "price": "$27.25",
+    "pick": "x",
     "info": "A master of doing multiple characters and voices and a veteran stand-up performer. Bamford just finished a season of “Lady Dynamite” for Netflix in which she plays a character loosely based on her real life. "
   },
   {
@@ -961,6 +965,7 @@
     "location": "Benaroya Hall (S. Mark Taper Forum)",
     "website": "http://www.seattlesymphony.org/BenaroyaHall",
     "price": "$61-$138",
+    "pick": "x",
     "info": "Whenever violinist Hahn sweeps on stage, a frisson of excitement passes through the audience — she’s that good and is adored that much. A champion of new music and arts education, she has a Twitter following of more than 70,000. “Regardless of what she plays, Hahn is an utterly convincing interpreter who makes the music sound natural and unforced — even easy, when it’s decidedly not easy at all,” wrote Seattle Times music critic Melinda Bargreen. Indeed."
   },
   {
@@ -1016,6 +1021,7 @@
     "location": "Benaroya Hall (S. Mark Taper Forum)",
     "website": "http://www.seattlesymphony.org/BenaroyaHall",
     "price": "$82-$165",
+    "pick": "x",
     "info": "The LA Phil is an orchestra on top of  its game: It’s well-funded, performs at two fantastic venues (Disney Hall and Hollywood Bowl) and has a masterful maestro. All that, and it makes great music, too. It’s been a while since an orchestra paid a visit here, and this is well worth your time, given the program: Dudamel will be leading LAP in Mahler’s Ninth."
   },
   {
@@ -1127,6 +1133,7 @@
     "location": "Snoqualmie Casino",
     "website": "http://www.snocasino.com/",
     "price": "$30-$45",
+    "pick": "x",
     "info": "Best-known for his three-year stint anchoring Saturday Night Live’s “Weekend Update,” Macdonald is a witty and acerbic stand-up performer who refuses to pull his punches. According to David Letterman, “There may be people as funny as Norm, but I don’t know anybody who is funnier.”"
   },
   {
@@ -1215,7 +1222,6 @@
     "className": "theater",
     "start": "9/22/2016",
     "end": "10/16/2016",
-    "time": "Varies",
     "location": "Seattle Public Theater at the Bathhouse",
     "website": "http://www.seattlepublictheater.org/",
     "price": "$17-$34",
@@ -1228,7 +1234,6 @@
     "className": "theater",
     "start": "9/22/2016",
     "end": "9/25/2016",
-    "time": "Varies",
     "location": "On the Boards, Seattle",
     "website": "http://www.ontheboards.org/performances/bridge-over-mud",
     "price": "$23-$25",
@@ -1256,6 +1261,22 @@
     "end": "1/8/2017",
     "time": "Museum hours",
     "location": "Seattle Art Museum",
-    "website": "http://seattleartmuseum.org/"
+    "website": "http://seattleartmuseum.org/",
+    "price": "$19.95",
+    "pick": "x",
+    "info": "The French designer (1936-2008) gave us the practical shirtdress and the Le Smoking tuxedo; he also dressed Iman and other celebs in ethnic-inspired beads and yards and yards of ultrafeminine silk chiffon. Revel in more of his classic looks at SAM."
+  },
+  {
+    "event": "\"Selected works from The Birds of America & Quadrupeds of North America”",
+    "category": "Visual Art",
+    "className": "art",
+    "start": "9/1/2016",
+    "end": "10/1/2016",
+    "time": "Gallery hours",
+    "location": "Davidson Galleries, Seattle",
+    "website": "https://www.davidsongalleries.com/exhibitions/audubon/",
+    "price": "free",
+    "pick": "x",
+    "info": "It’s not a big  show, but if you’ve ever seen the prolific naturalist’s work up close, you’ll appreciate any chance to see it again. This collection is of original prints from his “Birds of America” and “Quadrupeds” series and includes a seahawk — his “Common Osprey Fish Hawk,” fish firmly grasped in the bird’s feet."
   }
 ]

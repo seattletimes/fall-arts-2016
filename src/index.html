@@ -19,7 +19,7 @@
       <h1><img src="./assets/header.jpg" alt="Seattle Times Fall Arts Guide"></h1>
 
       <p>
-        Use our fall arts guide to plan your season! This calendar includes our editors' picks for autumn events -- everything from concerts to comedy to books and ballet. <a class="jump-to-today">Click here to scroll to upcoming events.</a>
+        Use our fall arts guide to plan your season! This calendar includes critics' recommendations and editors' best bets for autumn events &mdash; everything from concerts to comedy to books and ballet. <a class="jump-to-today">Click here to scroll to upcoming events.</a>
     </header>
 
     <main class="table-container">
@@ -33,7 +33,6 @@
             { data: "pop", label: "Pop, Rock &amp; Jazz" },
             { data: "comedy", label: "Comedy" },
             { data: "theater", label: "Theater" },
-            { data: "todo", label: "To-do list" },
             { data: "art", label: "Visual Art" }
           ] %>
           <ul class="categories">
@@ -118,7 +117,28 @@
           <tr>
             <td colspan="99">No results found</td>
       </table>
+      <div class="credits">
+        Originally published: Sept. 14, 2016
+      </div>
     </main>
+
+    <%= t.include("partials/_dontMiss.html", { data: [{
+      link: "http://www.seattletimes.com/entertainment/movies/from-snowden-to-sully-to-doctor-strange-15-fall-films/",
+      head: "From ‘Snowden’ to ‘Sully’ to ‘Doctor Strange’: 15 fall films",
+      image: "teasers/teaser_movies.jpg"
+    }, {
+      link: "http://www.seattletimes.com/entertainment/books/what-did-we-read-this-summer-check-out-the-libraries-most-requested-books/",
+      head: "What did we read this summer? Check out the libraries’ most-requested books",
+      image: "teasers/teaser_books.jpg"
+    }, {
+      link: "http://www.seattletimes.com/life/food-drink/save-the-dives-great-seattle-area-bars-to-celebrate-before-theyre-gone/",
+      head: "Save the dives: great Seattle-area bars to celebrate before they’re gone",
+      image: "teasers/teaser_dives.jpg"
+    }, {
+      link: "http://www.seattletimes.com/life/food-drink/6-seattle-spots-for-truly-great-pizza/",
+      head: "6 Seattle spots for truly great pizza",
+      image: "teasers/teaser_pizza.jpg"
+    }]}) %>
 
     <%= t.include("partials/_navBottom.html") %>
 
