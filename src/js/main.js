@@ -35,19 +35,6 @@ var rows = $(".fall-arts tbody.events tr").map(function(tr) {
   return o;
 });
 
-//scroll to today's events
-document.querySelector(".jump-to-today").addEventListener("click", function() {
-  var today = new Date();
-  today.setHours(0);
-  today.setMinutes(0);
-  today.setSeconds(0);
-  for (var i = 0; i < rows.length; i++) {
-    var row = rows[i];
-    if (row.end >= today) return scrollTo(row.element);
-    if (row.start >= today) return scrollTo(row.element);
-  }
-})
-
 var catList = document.querySelector(".filters .categories");
 var searchBox = document.querySelector(".filters .search");
 var table = document.querySelector(".fall-arts");
@@ -66,13 +53,17 @@ var filterForPicks = function(list) {
   return list.filter(r => r.pick);
 };
 
-var applyFilters = debounce(function() {
+var chainFilters = function() {
   var checked = $("input[type=checkbox]:checked", catList).map(el => el.getAttribute("data-category"));
   var query = searchBox.value;
   var byCat = filterByCategory(checked, rows);
   var byQ = query ? filterBySearch(query, byCat) : byCat;
   var picks = edPicks.checked ? filterForPicks(byQ) : byQ;
-  var final = picks;
+  return picks;
+}
+
+var applyFilters = debounce(function() {
+  var final = chainFilters();
   rows.forEach(function(r) {
     if (final.indexOf(r) > -1) {
       r.element.classList.remove("hidden");
@@ -94,3 +85,18 @@ searchBox.addEventListener("keyup", applyFilters);
 edPicks.addEventListener("click", applyFilters);
 
 applyFilters();
+
+
+//scroll to today's events
+document.querySelector(".jump-to-today").addEventListener("click", function() {
+  var today = new Date();
+  today.setHours(0);
+  today.setMinutes(0);
+  today.setSeconds(0);
+  var filtered = chainFilters();
+  for (var i = 0; i < filtered.length; i++) {
+    var row = filtered[i];
+    if (row.end >= today) return scrollTo(row.element);
+    if (row.start >= today) return scrollTo(row.element);
+  }
+});
