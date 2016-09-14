@@ -63,16 +63,16 @@
             <th class="description">Description
         <tbody class="events">
           <% var icons = {
-            books: "bookauthors.png",
-            classical: "classicalopera.png",
-            comedy: "comedy.png",
-            dance: "dance.png",
-            pop: "poprockjazz.png",
-            theater: "theater.png",
-            todo: "todolist.png",
-            art: "visualart.png"
+            books: "bookauthors",
+            classical: "classicalopera",
+            comedy: "comedy",
+            dance: "dance",
+            pop: "poprockjazz",
+            theater: "theater",
+            todo: "todolist",
+            art: "visualart"
           } %>
-          <% json.guide.forEach(function(item) { %>
+              <% json.guide.forEach(function(item) { %>
           <tr
             data-category="<%= item.className %>"
             data-start="<%= item.start %>" data-end="<%= item.end %>"
@@ -82,7 +82,11 @@
           >
 
             <td class="category">
-              <img src="./assets/icons/<%= icons[item.className] %>"
+              <%
+              var thumbnail = icons[item.className];
+              if (item.pick) thumbnail += "_red";
+              %>
+              <img src="./assets/icons/<%= thumbnail %>.png"
                 alt="<%= item.category %>"
                 title="<%= item.category %>"
               >
