@@ -123,6 +123,18 @@
     "phone": "(206) 215-4747"
   },
   {
+    "event": "Maria Bamford",
+    "category": "Comedy",
+    "className": "comedy",
+    "start": "9/17/2016",
+    "time": "8 p.m.",
+    "location": "Moore Theatre",
+    "website": "http://www.stgpresents.org/",
+    "price": "$27.25",
+    "pick": "x",
+    "info": "A master of doing multiple characters and voices and a veteran stand-up performer. Bamford just finished a season of “Lady Dynamite” for Netflix in which she plays a character loosely based on her real life. "
+  },
+  {
     "event": "Ann Patchett ",
     "category": "Books & Authors",
     "className": "books",
@@ -708,18 +720,6 @@
     "website": "https://townhallseattle.org/",
     "price": "$5",
     "info": "Author discusses novel “The Secret Chord.”"
-  },
-  {
-    "event": "Maria Bamford",
-    "category": "Comedy",
-    "className": "comedy",
-    "start": "10/17/2016",
-    "time": "8 p.m.",
-    "location": "Moore Theatre",
-    "website": "http://www.stgpresents.org/",
-    "price": "$27.25",
-    "pick": "x",
-    "info": "A master of doing multiple characters and voices and a veteran stand-up performer. Bamford just finished a season of “Lady Dynamite” for Netflix in which she plays a character loosely based on her real life. "
   },
   {
     "event": "Nisi Shawl ",
